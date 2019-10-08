@@ -5,9 +5,9 @@
   'ctrl-t': 'project-manager:list-projects'
 'atom-workspace atom-text-editor:not([mini])':
   'shift-esc': 'minimap:toggle'
-  'ctrl-space': 'editor:duplicate-lines'
   'ctrl-esc': 'tree-view:toggle'
   'ctrl-e': 'editor:delete-line'
+  'ctrl-h': 'editor:duplicate-lines'
   'ctrl-i': 'auto-detect-indentation:show-indentation-selector'
   'ctrl-j': 'editor:fold-current-row'
   'ctrl-r': 'fuzzy-finder:toggle-file-finder'
