@@ -1,0 +1,29 @@
+"*":
+  core:
+    autoHideMenuBar: true
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
+    projectHome: "/home/laurent/Development/"
+    reopenProjectMenuCount: 5
+    telemetryConsent: "no"
+  editor:
+    fontFamily: "Ubuntu Mono"
+    fontSize: 16
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapHangingIndent: 2
+    tabLength: 4
+    tabType: "soft"
+    zoomFontWhenCtrlScrolling: false
+  "exception-reporting":
+    userId: "d0b8398b-e6f2-451a-9def-989cf394de19"
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  welcome:
+    showOnStartup: false
