@@ -1,8 +1,18 @@
 "*":
+  "auto-detect-indentation":
+    showSpacingInStatusBar: false
+  autosave:
+    enabled: true
   core:
     autoHideMenuBar: true
     closeEmptyWindows: false
     destroyEmptyPanes: false
+    disabledPackages: [
+      "background-tips"
+    ]
+    packagesWithKeymapsDisabled: [
+      "php-ide-serenata"
+    ]
     projectHome: "/home/laurent/Development/"
     reopenProjectMenuCount: 5
     telemetryConsent: "no"
@@ -30,5 +40,7 @@
       "git-diffDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+  "php-ide-serenata":
+    storagePath: "/home/laurent/.cache/php-ide-serenata"
   welcome:
     showOnStartup: false
