@@ -12,6 +12,7 @@
     ]
     packagesWithKeymapsDisabled: [
       "php-ide-serenata"
+      "minimap"
     ]
     projectHome: "/home/laurent/Development/"
     reopenProjectMenuCount: 5
@@ -35,11 +36,16 @@
   "exception-reporting":
     userId: "d0b8398b-e6f2-451a-9def-989cf394de19"
   minimap:
+    adjustMinimapWidthOnlyIfSmaller: false
+    autoToggle: false
+    displayPluginsControls: false
+    minimapScrollIndicator: false
     plugins:
       "git-diff": true
       "git-diffDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+    useHardwareAcceleration: false
   "php-ide-serenata":
     storagePath: "/home/laurent/.cache/php-ide-serenata"
   welcome:
