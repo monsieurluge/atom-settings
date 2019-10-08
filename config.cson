@@ -1,4 +1,6 @@
 "*":
+  "atom-autocomplete-php":
+    binComposer: "composer"
   "auto-detect-indentation":
     showSpacingInStatusBar: false
   autosave:
@@ -13,6 +15,7 @@
     packagesWithKeymapsDisabled: [
       "php-ide-serenata"
       "minimap"
+      "atom-autocomplete-php"
     ]
     projectHome: "/home/laurent/Development/"
     reopenProjectMenuCount: 5
@@ -35,6 +38,10 @@
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "d0b8398b-e6f2-451a-9def-989cf394de19"
+  linter:
+    lintOnChange: false
+  "linter-ui-default":
+    showPanel: true
   minimap:
     adjustMinimapWidthOnlyIfSmaller: false
     autoToggle: false
@@ -48,5 +55,8 @@
     useHardwareAcceleration: false
   "php-ide-serenata":
     storagePath: "/home/laurent/.cache/php-ide-serenata"
+  "status-bar":
+    cursorPositionFormat: "line %L, col %C"
+    selectionCountFormat: "(%L lines, %C characters)"
   welcome:
     showOnStartup: false
