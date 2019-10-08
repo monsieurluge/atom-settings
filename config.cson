@@ -6,9 +6,14 @@
     projectHome: "/home/laurent/Development/"
     reopenProjectMenuCount: 5
     telemetryConsent: "no"
+    themes: [
+      "atom-distraction-free-ui-theme"
+      "atom-distraction-free-syntax"
+    ]
   editor:
     fontFamily: "Ubuntu Mono"
     fontSize: 16
+    lineHeight: 1.3
     preferredLineLength: 120
     scrollPastEnd: true
     showIndentGuide: true
