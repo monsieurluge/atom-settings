@@ -10,6 +10,7 @@
     closeEmptyWindows: false
     disabledPackages: [
       "background-tips"
+      "spell-check"
     ]
     packagesWithKeymapsDisabled: [
       "php-ide-serenata"
