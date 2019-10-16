@@ -65,3 +65,9 @@
     selectionCountFormat: "(%L lines, %C characters)"
   welcome:
     showOnStartup: false
+".html.text.vue":
+  editor:
+    tabLength: 2
+".js.source":
+  editor:
+    tabLength: 2
