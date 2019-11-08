@@ -3,6 +3,8 @@
     binComposer: "composer"
   "auto-detect-indentation":
     showSpacingInStatusBar: false
+  "autocomplete-plus":
+    confirmCompletion: "tab"
   autosave:
     enabled: true
   core:
