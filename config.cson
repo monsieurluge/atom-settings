@@ -1,6 +1,7 @@
 "*":
   "atom-autocomplete-php":
     binComposer: "composer"
+    gotoKey: "cmd"
   "atom-ide-ui":
     "atom-ide-code-format":
       formatOnType: false
@@ -58,7 +59,7 @@
     lintOnChange: false
   "linter-php": {}
   "linter-phpmd":
-    disableWhenNoConfigFile: true
+    strictMode: true
   "linter-ui-default":
     showDecorations: false
     showPanel: true
@@ -77,7 +78,7 @@
   "php-ide-serenata":
     general:
       doNotShowProjectChangeMessage: true
-      projectOpenCount: 5
+      projectOpenCount: 14
     storagePath: "/home/laurent/.cache/php-ide-serenata"
   "status-bar":
     cursorPositionFormat: "line %L, col %C"
@@ -86,6 +87,11 @@
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
+  "wrap-guide":
+    columns: [
+      80
+      120
+    ]
 ".html.text.vue":
   editor:
     tabLength: 2
