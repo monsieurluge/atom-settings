@@ -5,7 +5,8 @@
   "atom-ide-ui":
     "atom-ide-code-format":
       formatOnType: false
-    "atom-ide-debugger": {}
+    "atom-ide-debugger":
+      showDebuggerOnBpSet: false
     "atom-ide-signature-help": {}
     hyperclick:
       linuxTriggerKeys: "shiftKey"
