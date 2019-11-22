@@ -1,0 +1,8 @@
+'.text.html.php':
+  'inheritdoc':
+    'prefix': 'idoc'
+    'body': """
+/**
+ * @inheritDoc
+ */
+    """
