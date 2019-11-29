@@ -6,3 +6,8 @@
  * @inheritDoc
  */
     """
+  'method not implemented':
+    'prefix': 'notimpl'
+    'body': """
+throw new \\\\RuntimeException(sprintf('method %s::%s not implemented', __CLASS__, __FUNCTION__));
+    """
