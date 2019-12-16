@@ -32,6 +32,8 @@
       "minimap"
       "atom-autocomplete-php"
       "markdown-preview"
+      "tree-view"
+      "tool-bar"
     ]
     projectHome: "/home/laurent/Development/"
     reopenProjectMenuCount: 5
