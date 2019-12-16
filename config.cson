@@ -61,6 +61,8 @@
   "linter-php": {}
   "linter-phpmd":
     strictMode: true
+  "linter-phpstan":
+    level: "2"
   "linter-ui-default":
     showDecorations: false
     showPanel: true
