@@ -8,6 +8,11 @@
     "atom-ide-debugger":
       showDebuggerOnBpSet: false
     "atom-ide-signature-help": {}
+    "atom-ide-terminal":
+      charAtlas: "static"
+      cursorBlink: true
+      fontFamily: "ubuntu mono"
+      rendererType: "canvas"
     hyperclick:
       linuxTriggerKeys: "shiftKey"
     use:
@@ -88,6 +93,10 @@
   "status-bar":
     cursorPositionFormat: "line %L, col %C"
     selectionCountFormat: "(%L lines, %C characters)"
+  "tool-bar":
+    iconSize: "16px"
+    position: "Left"
+    useTouchBar: false
   welcome:
     showOnStartup: false
   whitespace:
