@@ -2,7 +2,8 @@
   'alt': 'abort!'
   'ctrl-p': 'command-palette:toggle'
   'ctrl-r': 'fuzzy-finder:toggle-file-finder'
-  'ctrl-t': 'project-manager:list-projects'
+  'ctrl-t': 'symbols-view:toggle-file-symbols'
+  'ctrl-shift-p': 'project-manager:list-projects'
 'atom-workspace atom-text-editor:not([mini])':
   'shift-esc': 'minimap:toggle'
   'ctrl-esc': 'tree-view:toggle'

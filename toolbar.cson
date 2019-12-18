@@ -1,0 +1,37 @@
+# documentation: https://atom.io/packages/flex-tool-bar
+
+[
+  {
+    type: "button"
+    icon: "gear"
+    callback: "settings-view:open"
+    tooltip: "settings"
+  }
+  {
+    type: "button"
+    icon: "package"
+    callback: "settings-view:uninstall-packages"
+    tooltip: "packages"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type: "button"
+    icon: "beaker"
+    callback: "project-manager:list-projects"
+    tooltip: "projects"
+  }
+  {
+    type: "button"
+    icon: "markdown"
+    callback: "markdown-preview:toggle"
+    tooltip: "markdown"
+  }
+  {
+    type: "button"
+    icon: "no-newline"
+    callback: "editor:toggle-soft-wrap"
+    tooltip: "soft wrap"
+  }
+]
