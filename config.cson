@@ -25,6 +25,7 @@
       "background-tips"
       "spell-check"
       "linter"
+      "linter-ui-default"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
@@ -32,6 +33,9 @@
       "minimap"
       "atom-autocomplete-php"
       "markdown-preview"
+    ]
+    packagesWithSnippetsDisabled: [
+      "language-ruby"
     ]
     projectHome: "/home/laurent/Development/"
     reopenProjectMenuCount: 5
