@@ -33,6 +33,7 @@
       "background-tips"
       "spell-check"
       "linter"
+      "linter-ui-default"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
@@ -42,6 +43,9 @@
       "markdown-preview"
       "tree-view"
       "tool-bar"
+    ]
+    packagesWithSnippetsDisabled: [
+      "language-ruby"
     ]
     projectHome: "/home/laurent/Development/"
     reopenProjectMenuCount: 5
