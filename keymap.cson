@@ -17,7 +17,7 @@
   'alt-l': 'editor:move-line-up'
   'ctrl-shift-c': 'editor:toggle-line-comments'
   'ctrl-k ctrl-h': 'open-html-in-browser:open'
-  'ctrl-k ctrl-r': 'tree-view:reveal-active-file'
+  'ctrl-y': 'tree-view:reveal-active-file'
   'ctrl-down': 'editor:add-selection-below'
   'ctrl-up': 'editor:add-selection-above'
 '.tree-view':
