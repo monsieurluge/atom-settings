@@ -1,13 +1,20 @@
 '.text.html.php':
-  'inheritdoc':
+  'inheritdoc docblock':
     'prefix': 'idoc'
     'body': """
 /**
  * @inheritDoc
  */
     """
+
   'method not implemented':
     'prefix': 'notimpl'
     'body': """
 throw new \\\\RuntimeException(sprintf('method %s::%s not implemented', __CLASS__, __FUNCTION__));
+    """
+
+  'variable docblock':
+    'prefix': 'vdoc'
+    'body': """
+/** @var $1 */
     """
