@@ -18,3 +18,19 @@ throw new \\\\RuntimeException(sprintf('method %s::%s not implemented', __CLASS_
     'body': """
 /** @var $1 */
     """
+
+  'constructor':
+    'prefix': 'ctor'
+    'body': """
+public function __construct($1)
+{
+    $2
+}
+    """
+
+  'private variable docblock and declaration':
+    'prefix': 'pvar'
+    'body': """
+/** @var $1 */
+private $$2;
+    """
