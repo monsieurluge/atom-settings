@@ -8,6 +8,7 @@
   'shift-esc': 'minimap:toggle'
   'ctrl-esc': 'tree-view:toggle'
   'ctrl-e': 'editor:delete-line'
+  'ctrl-b': 'hyperclick:confirm-cursor'
   'ctrl-h': 'editor:duplicate-lines'
   'ctrl-i': 'auto-detect-indentation:show-indentation-selector'
   'ctrl-j': 'editor:fold-current-row'
