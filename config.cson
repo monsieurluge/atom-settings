@@ -20,12 +20,16 @@
       "atom-ide-console": "never"
       "atom-ide-debugger": "never"
       "atom-ide-terminal": "never"
+  "atom-linter-phpstan":
+    level: "8"
   "auto-detect-indentation":
     showSpacingInStatusBar: false
   "autocomplete-plus":
     confirmCompletion: "tab"
   autosave:
     enabled: true
+  "bracket-matcher":
+    alwaysSkipClosingPairs: true
   core:
     autoHideMenuBar: true
     closeEmptyWindows: false
@@ -34,6 +38,12 @@
       "spell-check"
       "linter"
       "linter-ui-default"
+      "open-on-github"
+      "keybinding-resolver"
+      "archive-view"
+      "bookmarks"
+      "link"
+      "welcome"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
@@ -43,6 +53,7 @@
       "markdown-preview"
       "tree-view"
       "tool-bar"
+      "bracket-matcher"
     ]
     packagesWithSnippetsDisabled: [
       "language-ruby"
@@ -100,6 +111,7 @@
   "status-bar":
     cursorPositionFormat: "line %L, col %C"
     selectionCountFormat: "(%L lines, %C characters)"
+  tabs: {}
   "tool-bar":
     iconSize: "16px"
     position: "Left"

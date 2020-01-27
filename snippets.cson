@@ -5,19 +5,19 @@
 /**
  * @inheritDoc
  */
-    """
+"""
 
   'method not implemented':
     'prefix': 'notimpl'
     'body': """
 throw new \\\\RuntimeException(sprintf('method %s::%s not implemented', __CLASS__, __FUNCTION__));
-    """
+"""
 
   'variable docblock':
     'prefix': 'vdoc'
     'body': """
 /** @var $1 */
-    """
+"""
 
   'constructor':
     'prefix': 'ctor'
