@@ -44,6 +44,7 @@
       "bookmarks"
       "link"
       "welcome"
+      "styleguide"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
