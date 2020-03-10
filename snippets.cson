@@ -34,3 +34,11 @@ public function __construct($1)
 /** @var $1 */
 private $$2;
     """
+
+  'PHPUnit covers annotation':
+    'prefix': 'covers'
+    'body': """
+/**
+ * @covers $1::$2
+ */
+    """
