@@ -7,6 +7,8 @@
       formatOnType: false
     "atom-ide-debugger":
       showDebuggerOnBpSet: false
+    "atom-ide-diagnostics-ui":
+      statusBarPosition: "right"
     "atom-ide-outline-view": {}
     "atom-ide-signature-help": {}
     "atom-ide-terminal":
@@ -45,6 +47,7 @@
       "link"
       "welcome"
       "styleguide"
+      "git-diff"
     ]
     openEmptyEditorOnStart: false
     packagesWithKeymapsDisabled: [
@@ -55,6 +58,7 @@
       "tree-view"
       "tool-bar"
       "bracket-matcher"
+      "highlight-selected"
     ]
     packagesWithSnippetsDisabled: [
       "language-ruby"
@@ -69,11 +73,12 @@
   editor:
     autoIndentOnPaste: false
     fontFamily: "Ubuntu Mono"
+    invisibles: {}
     lineHeight: 1.3
     preferredLineLength: 120
     scrollPastEnd: true
-    showIndentGuide: true
     showInvisibles: true
+    showLineNumbers: false
     softWrap: true
     softWrapHangingIndent: 2
     tabLength: 4
@@ -81,6 +86,9 @@
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "d0b8398b-e6f2-451a-9def-989cf394de19"
+  "highlight-selected":
+    highlightInPanes: false
+    statusBarString: "#%c"
   linter:
     lintOnChange: false
   "linter-php": {}
@@ -109,9 +117,11 @@
       projectOpenCount: 14
     storagePath: "/home/laurent/.cache/php-ide-serenata"
   "status-bar":
-    cursorPositionFormat: "line %L, col %C"
-    selectionCountFormat: "(%L lines, %C characters)"
-  tabs: {}
+    cursorPositionFormat: "%L/%C"
+    selectionCountFormat: "[%L/%C]"
+  tabs:
+    showIcons: false
+    tabScrolling: false
   "tool-bar":
     iconSize: "16px"
     position: "Left"
