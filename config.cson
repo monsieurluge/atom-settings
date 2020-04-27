@@ -33,6 +33,7 @@
   "bracket-matcher":
     alwaysSkipClosingPairs: true
   core:
+    audioBeep: false
     autoHideMenuBar: true
     closeEmptyWindows: false
     disabledPackages: [
@@ -126,6 +127,8 @@
     iconSize: "16px"
     position: "Left"
     useTouchBar: false
+  "tree-view":
+    focusOnReveal: false
   welcome:
     showOnStartup: false
   whitespace:
