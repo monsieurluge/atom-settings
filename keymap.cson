@@ -16,7 +16,7 @@
   'ctrl-;': 'editor:unfold-current-row'
   'alt-k': 'editor:move-line-down'
   'alt-l': 'editor:move-line-up'
-  'ctrl-shift-c': 'editor:toggle-line-comments'
+  'ctrl-{': 'editor:toggle-line-comments'
   'ctrl-k ctrl-h': 'open-html-in-browser:open'
   'ctrl-y': 'tree-view:reveal-active-file'
   'ctrl-down': 'editor:add-selection-below'
