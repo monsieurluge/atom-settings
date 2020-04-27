@@ -4,6 +4,8 @@
   'ctrl-r': 'fuzzy-finder:toggle-file-finder'
   'ctrl-t': 'symbols-view:toggle-file-symbols'
   'ctrl-shift-p': 'project-manager:list-projects'
+'.editor':
+  'ctrl-l': 'line-numbers:toggle'
 'atom-workspace atom-text-editor:not([mini])':
   'ctrl-esc': 'tree-view:toggle'
   'ctrl-e': 'editor:delete-line'
