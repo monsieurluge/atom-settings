@@ -135,9 +135,21 @@
       80
       120
     ]
+".css.less.source":
+  editor:
+    tabLength: 2
+".css.scss.source":
+  editor:
+    tabLength: 2
+".css.source":
+  editor:
+    tabLength: 2
 ".html.text.vue":
   editor:
     tabLength: 2
 ".js.source":
+  editor:
+    tabLength: 2
+".sass.source":
   editor:
     tabLength: 2
