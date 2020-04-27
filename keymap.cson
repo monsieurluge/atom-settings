@@ -5,7 +5,6 @@
   'ctrl-t': 'symbols-view:toggle-file-symbols'
   'ctrl-shift-p': 'project-manager:list-projects'
 'atom-workspace atom-text-editor:not([mini])':
-  'shift-esc': 'minimap:toggle'
   'ctrl-esc': 'tree-view:toggle'
   'ctrl-e': 'editor:delete-line'
   'ctrl-b': 'hyperclick:confirm-cursor'
