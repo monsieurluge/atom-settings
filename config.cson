@@ -32,6 +32,9 @@
     enabled: true
   "bracket-matcher":
     alwaysSkipClosingPairs: true
+  "color-picker":
+    preferredFormat: "HSL"
+    randomColor: false
   core:
     audioBeep: false
     autoHideMenuBar: true
