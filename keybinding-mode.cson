@@ -9,6 +9,9 @@
     '.platform-linux .github-CommitView-editor atom-text-editor:not([mini])':
       'ctrl-enter': 'github:commit'
     'atom-workspace atom-text-editor:not([mini])':
+      'ctrl-f': 'find-and-replace:toggle'
+      'ctrl-shift-F': 'project-find:toggle'
+      'ctrl-g': 'go-to-line:toggle'
       'ctrl-e': 'editor:toggle-line-comments'
       'ctrl-i': 'symbols-view:toggle-file-symbols'
       'ctrl-h': 'editor:delete-line'
@@ -31,6 +34,10 @@
     '.platform-linux .github-CommitView-editor atom-text-editor:not([mini])':
       'ctrl-enter': 'github:commit'
     'atom-workspace atom-text-editor:not([mini])':
+      'ctrl-t': 'find-and-replace:toggle'
+      'ctrl-shift-T': 'project-find:toggle'
+      'ctrl-shift-t': 'project-find:toggle'
+      'ctrl-g': 'go-to-line:toggle'
       'ctrl-f': 'editor:toggle-line-comments'
       'ctrl-u': 'symbols-view:toggle-file-symbols'
       'ctrl-m': 'editor:delete-line'
