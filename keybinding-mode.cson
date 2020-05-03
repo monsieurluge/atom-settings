@@ -6,6 +6,8 @@
       'ctrl-u': 'fuzzy-finder:toggle-file-finder'
       'ctrl-o': 'project-manager:list-projects'
       'ctrl-,': 'tree-view:toggle'
+    '.platform-linux .github-CommitView-editor atom-text-editor:not([mini])':
+      'ctrl-enter': 'github:commit'
     'atom-workspace atom-text-editor:not([mini])':
       'ctrl-e': 'editor:toggle-line-comments'
       'ctrl-i': 'symbols-view:toggle-file-symbols'
@@ -26,6 +28,8 @@
       'ctrl-l': 'fuzzy-finder:toggle-file-finder'
       'ctrl-y': 'project-manager:list-projects'
       'ctrl-,': 'tree-view:toggle'
+    '.platform-linux .github-CommitView-editor atom-text-editor:not([mini])':
+      'ctrl-enter': 'github:commit'
     'atom-workspace atom-text-editor:not([mini])':
       'ctrl-f': 'editor:toggle-line-comments'
       'ctrl-u': 'symbols-view:toggle-file-symbols'
