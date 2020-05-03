@@ -3,12 +3,12 @@
     '.platform-win32, .platform-linux':
       'alt': 'abort!'
       'ctrl-space': 'command-palette:toggle'
-      'ctrl-u': 'fuzzy-finder:toggle-file-finder'
       'ctrl-o': 'project-manager:list-projects'
       'ctrl-,': 'tree-view:toggle'
     '.platform-linux .github-CommitView-editor atom-text-editor:not([mini])':
       'ctrl-enter': 'github:commit'
     'atom-workspace atom-text-editor:not([mini])':'body':
+      'ctrl-u': 'fuzzy-finder:toggle-file-finder'
       'ctrl-d': 'find-and-replace:select-next'
       'ctrl-shift-D': 'find-and-replace:select-all'
       'ctrl-f': 'find-and-replace:toggle'
@@ -30,12 +30,12 @@
     '.platform-win32, .platform-linux':
       'alt': 'abort!'
       'ctrl-space': 'command-palette:toggle'
-      'ctrl-l': 'fuzzy-finder:toggle-file-finder'
       'ctrl-y': 'project-manager:list-projects'
       'ctrl-,': 'tree-view:toggle'
     '.platform-linux .github-CommitView-editor atom-text-editor:not([mini])':
       'ctrl-enter': 'github:commit'
     'atom-workspace atom-text-editor:not([mini])':
+      'ctrl-l': 'fuzzy-finder:toggle-file-finder'
       'ctrl-s': 'find-and-replace:select-next'
       'ctrl-shift-S': 'find-and-replace:select-all'
       'ctrl-t': 'find-and-replace:toggle'
