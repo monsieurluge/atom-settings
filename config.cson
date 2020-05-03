@@ -63,6 +63,9 @@
       "tool-bar"
       "bracket-matcher"
       "highlight-selected"
+      "git-diff"
+      "autocomplete-plus"
+      "github"
     ]
     packagesWithSnippetsDisabled: [
       "language-ruby"
@@ -96,6 +99,8 @@
     zoomFontWhenCtrlScrolling: false
   "exception-reporting":
     userId: "d0b8398b-e6f2-451a-9def-989cf394de19"
+  "git-diff":
+    wrapAroundOnMoveToDiff: false
   "highlight-selected":
     highlightInPanes: false
     statusBarString: "#%c"
