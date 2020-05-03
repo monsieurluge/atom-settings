@@ -1,34 +1,50 @@
-'Standard':
+'qwerty':
   keymap:
     '.platform-win32, .platform-linux':
       'alt': 'abort!'
-      'ctrl-p': 'command-palette:toggle'
-      'ctrl-r': 'fuzzy-finder:toggle-file-finder'
-      'ctrl-t': 'symbols-view:toggle-file-symbols'
-      'ctrl-shift-p': 'project-manager:list-projects'
+      'ctrl-space': 'command-palette:toggle'
+      'ctrl-u': 'fuzzy-finder:toggle-file-finder'
+      'ctrl-o': 'project-manager:list-projects'
+      'ctrl-,': 'tree-view:toggle'
     'atom-workspace atom-text-editor:not([mini])':
-      'shift-esc': 'minimap:toggle'
-      'ctrl-esc': 'tree-view:toggle'
-      'ctrl-e': 'editor:delete-line'
-      'ctrl-b': 'hyperclick:confirm-cursor'
-      'ctrl-h': 'editor:duplicate-lines'
-      'ctrl-i': 'auto-detect-indentation:show-indentation-selector'
+      # left hand
+      'ctrl-p': 'tree-view:reveal-active-file'
+      'ctrl-e': 'editor:toggle-line-comments'
+      'ctrl-f': 'find-and-replace:show'
+      'ctrl-g': 'go-to-line:toggle'
+      # right hand
+      'ctrl-i': 'symbols-view:toggle-file-symbols'
+      'ctrl-h': 'editor:delete-line'
       'ctrl-j': 'editor:fold-current-row'
-      'ctrl-r': 'fuzzy-finder:toggle-file-finder'
       'ctrl-;': 'editor:unfold-current-row'
-      'alt-k': 'editor:move-line-down'
-      'alt-l': 'editor:move-line-up'
-      'ctrl-shift-c': 'editor:toggle-line-comments'
-      'ctrl-k ctrl-h': 'open-html-in-browser:open'
-      'ctrl-y': 'tree-view:reveal-active-file'
-      'ctrl-down': 'editor:add-selection-below'
-      'ctrl-up': 'editor:add-selection-above'
-    '.tree-view':
-      'ctrl-[': 'none'
-    'body':
-      'ctrl-c': 'editor:copy-selection'
-      'ctrl-q': 'none'
-'Laptop':
+      'ctrl-k': 'editor:move-line-down'
+      'ctrl-l': 'editor:move-line-up'
+      'ctrl-m': 'editor:duplicate-lines'
+      'crtl-.': 'minimap:toggle'
+'colemak':
+  keymap:
+    '.platform-win32, .platform-linux':
+      'alt': 'abort!'
+      'ctrl-space': 'command-palette:toggle'
+      'ctrl-l': 'fuzzy-finder:toggle-file-finder'
+      'ctrl-y': 'project-manager:list-projects'
+      'ctrl-,': 'tree-view:toggle'
+    'atom-workspace atom-text-editor:not([mini])':
+      # left hand
+      'ctrl-p': 'tree-view:reveal-active-file'
+      'ctrl-f': 'editor:toggle-line-comments'
+      'ctrl-t': 'find-and-replace:show'
+      'ctrl-g': 'go-to-line:toggle'
+      # right hand
+      'ctrl-u': 'symbols-view:toggle-file-symbols'
+      'ctrl-m': 'editor:delete-line'
+      'ctrl-n': 'editor:fold-current-row'
+      'ctrl-o': 'editor:unfold-current-row'
+      'ctrl-e': 'editor:move-line-down'
+      'ctrl-i': 'editor:move-line-up'
+      'ctrl-h': 'editor:duplicate-lines'
+      'crtl-.': 'minimap:toggle'
+'azerty laptop':
   keymap:
     '.platform-win32, .platform-linux':
       'alt': 'abort!'
@@ -59,4 +75,4 @@
     'body':
       'ctrl-c': 'editor:copy-selection'
       'ctrl-q': 'none'
-'!autostart': 'Standard'
+'!autostart': 'qwerty'
