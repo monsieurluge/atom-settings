@@ -71,6 +71,12 @@
       "atom-distraction-free-ui-theme"
       "atom-distraction-free-syntax"
     ]
+  "disable-keybindings":
+    allBundledPackages: true
+    allCommunityPackages: true
+    prefixKeys: [
+      "ctrl-k"
+    ]
   editor:
     autoIndentOnPaste: false
     fontFamily: "Ubuntu Mono"
