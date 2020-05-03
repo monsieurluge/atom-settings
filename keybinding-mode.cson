@@ -24,8 +24,6 @@
       'ctrl-k': 'editor:move-line-down'
       'ctrl-l': 'editor:move-line-up'
     'body':
-      'ctrl-s': 'unset!'
-      'ctrl-shift-S': 'unset!'
       'ctrl-c': 'editor:copy-selection'
 'colemak':
   keymap:
@@ -56,6 +54,8 @@
     'body':
       'ctrl-s': 'unset!'
       'ctrl-shift-S': 'unset!'
+      'ctrl-r': 'core:save'
+      'ctrl-shift-R': 'core:save-as'
       'ctrl-c': 'editor:copy-selection'
 'azerty laptop':
   keymap:
