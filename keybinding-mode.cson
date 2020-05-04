@@ -7,7 +7,7 @@
       'ctrl-,': 'tree-view:toggle'
     '.platform-linux .github-CommitView-editor atom-text-editor:not([mini])':
       'ctrl-enter': 'github:commit'
-    'atom-workspace atom-text-editor:not([mini])':'body':
+    'atom-workspace atom-text-editor:not([mini])':
       'ctrl-u': 'fuzzy-finder:toggle-file-finder'
       'ctrl-d': 'find-and-replace:select-next'
       'ctrl-shift-D': 'find-and-replace:select-all'
