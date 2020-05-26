@@ -23,6 +23,8 @@
       'ctrl-r': 'tree-view:reveal-active-file'
       'ctrl-k': 'editor:move-line-down'
       'ctrl-l': 'editor:move-line-up'
+    'atom-text-editor.autocomplete-active':
+      'escape': 'autocomplete-plus:cancel'
     'body':
       'ctrl-c': 'editor:copy-selection'
 'colemak':
@@ -51,6 +53,8 @@
       'ctrl-p': 'tree-view:reveal-active-file'
       'ctrl-e': 'editor:move-line-down'
       'ctrl-i': 'editor:move-line-up'
+    'atom-text-editor.autocomplete-active':
+      'escape': 'autocomplete-plus:cancel'
     'body':
       'ctrl-s': 'unset!'
       'ctrl-shift-S': 'unset!'
