@@ -167,6 +167,9 @@
 ".js.source":
   editor:
     tabLength: 2
+".json.source":
+  editor:
+    tabLength: 2
 ".sass.source":
   editor:
     tabLength: 2
