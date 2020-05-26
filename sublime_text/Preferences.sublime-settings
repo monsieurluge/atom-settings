@@ -1,0 +1,29 @@
+{
+	"block_caret": false,
+	"color_scheme": "Packages/User/theme/monsieurluge.tmTheme",
+	"copy_with_empty_selection": false,
+	"default_line_ending": "unix",
+	"drag_text": false,
+	"draw_indent_guides": false,
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Ubuntu Mono",
+	"font_size": 14,
+	"gutter": false,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_numbers": true,
+	// "rulers":
+	// [
+	// 	80,
+	// 	120
+	// ],
+	"save_on_focus_lost": true,
+	"show_full_path": true,
+	"show_tab_close_buttons": false,
+	"theme": "monsieurluge.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

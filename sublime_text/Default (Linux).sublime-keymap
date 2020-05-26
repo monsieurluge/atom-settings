@@ -1,0 +1,13 @@
+[
+    { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
+    { "keys": ["ctrl+space"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+shift+down"], "command": "duplicate_line" },
+    { "keys": ["ctrl+shift+up"], "command": "duplicate_line" },
+    { "keys": ["alt+up"], "command": "swap_line_up" },
+    { "keys": ["alt+down"], "command": "swap_line_down" },
+    { "keys": ["ctrl+h"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+p"], "command": "prompt_select_workspace" },
+    { "keys": ["ctrl+e"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+shift-e"], "command": "toggle_comment", "args": { "block": true } },
+
+]
