@@ -1,6 +1,11 @@
 {
+	"always_show_minimap_viewport": true,
 	"block_caret": false,
-	"color_scheme": "Packages/User/theme/monsieurluge.tmTheme",
+	"caret_style": "phase",
+    "caret_extra_top": 0,
+    "caret_extra_bottom": 0,
+    "caret_extra_width": 3,
+	"color_scheme": "Packages/User/theme/sandstorm.tmTheme",
 	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
 	"drag_text": false,
@@ -14,16 +19,13 @@
 	[
 		"Vintage"
 	],
-	"line_numbers": true,
-	// "rulers":
-	// [
-	// 	80,
-	// 	120
-	// ],
+	"line_numbers": false,
 	"save_on_focus_lost": true,
 	"show_full_path": true,
 	"show_tab_close_buttons": false,
-	"theme": "monsieurluge.sublime-theme",
+	"theme": "sandstorm.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true",
+	"rulers": [80],
 }
