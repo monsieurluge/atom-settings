@@ -12,7 +12,7 @@
 
     // editing
     { "keys": ["ctrl+y"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-    { "keys": ["ctrl+h"], "command": "duplicate_line" },
+    { "keys": ["ctrl+h"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
     { "keys": ["ctrl+l"], "command": "swap_line_up" },
     { "keys": ["ctrl+k"], "command": "swap_line_down" },
     { "keys": ["ctrl+e"], "command": "toggle_comment", "args": { "block": false } },
