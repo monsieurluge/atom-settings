@@ -610,55 +610,55 @@
         "content_margin": [0, 6]
     },
     // Scrollbar - background ---------------------------------------- SCROLLBAR
-    {
-        "class": "scroll_area_control",
-        "attributes": ["scrollable", "hscrollable"],
-        "top_shadow": [255, 0, 0],
-        "top_shadow_size": 10,
-        "bottom_shadow": [255, 0, 0],
-        "bottom_shadow_size": 10,
-    },
-    {
-        "class": "scroll_bar_control",
-        "parents": [{ "class": "sidebar_container" }],
-        "layer0.tint": [40, 38, 37],
-        "layer0.opacity": 1,
-        "blur": false
-    },
-    {
-        "class": "scroll_bar_control",
-        "parents": [{ "class": "edit_window" }],
-        "layer0.tint": [47, 45, 44],
-        "layer0.opacity": 1,
-        "blur": false
-    },
-    {
-        "class": "scroll_bar_control",
-        "parents": [{ "class": "overlay_control" }],
-        "layer0.tint": [40, 38, 37],
-        "layer0.opacity": 1,
-        "blur": false
-    },
-    // Scrollbar - corner background
-    {
-        "class": "scroll_corner_control",
-        "layer0.tint": [40, 38, 37],
-        "layer0.opacity": 1,
-    },
-    {
-        "class": "scroll_corner_control",
-        "parents": [{ "class": "edit_window" }],
-        "layer0.tint": [47, 45, 44],
-        "layer0.opacity": 1,
-    },
-    // Scrollbar - vertical thumb
-    {
-        "class": "puck_control",
-        "content_margin": [3, 3],
-        "layer0.tint": [255, 255, 255],
-        "layer0.opacity": 0.1,
-        "blur": true
-    },
+    // {
+    //     "class": "scroll_area_control",
+    //     "attributes": ["scrollable", "hscrollable"],
+    //     "top_shadow": [255, 0, 0],
+    //     "top_shadow_size": 10,
+    //     "bottom_shadow": [255, 0, 0],
+    //     "bottom_shadow_size": 10,
+    // },
+    // {
+    //     "class": "scroll_bar_control",
+    //     "parents": [{ "class": "sidebar_container" }],
+    //     "layer0.tint": [40, 38, 37],
+    //     "layer0.opacity": 0.0,
+    //     "blur": false
+    // },
+    // {
+    //     "class": "scroll_bar_control",
+    //     "parents": [{ "class": "edit_window" }],
+    //     "layer0.tint": [47, 45, 44],
+    //     "layer0.opacity": 0.0,
+    //     "blur": false
+    // },
+    // {
+    //     "class": "scroll_bar_control",
+    //     "parents": [{ "class": "overlay_control" }],
+    //     "layer0.tint": [40, 38, 37],
+    //     "layer0.opacity": 0.0,
+    //     "blur": false
+    // },
+    // // Scrollbar - corner background
+    // {
+    //     "class": "scroll_corner_control",
+    //     "layer0.tint": [40, 38, 37],
+    //     "layer0.opacity": 0.0,
+    // },
+    // {
+    //     "class": "scroll_corner_control",
+    //     "parents": [{ "class": "edit_window" }],
+    //     "layer0.tint": [47, 45, 44],
+    //     "layer0.opacity": 0.0,
+    // },
+    // // Scrollbar - vertical thumb
+    // {
+    //     "class": "puck_control",
+    //     "content_margin": [3, 3],
+    //     "layer0.tint": [255, 255, 255],
+    //     "layer0.opacity": 0.0,
+    //     "blur": true
+    // },
     // Scrollbar - horizontal thumb
     // {
     //     "class": "puck_control",
@@ -678,21 +678,21 @@
     //     "overlay": false
     // },
     // Scrollbar - overlay background
-    {
-        "class": "scroll_bar_control",
-        "settings": ["overlay_scroll_bars"],
-        "layer0.tint": [255, 255, 255],
-        "layer0.opacity": 0,
-        "blur": true
-    },
-    // Scrollbar - overlay thumb
-    {
-        "class": "puck_control",
-        "settings": ["overlay_scroll_bars"],
-        "layer0.tint": [255, 255, 255],
-        "layer0.opacity": 0,
-        "blur": true
-    },
+    // {
+    //     "class": "scroll_bar_control",
+    //     "settings": ["overlay_scroll_bars"],
+    //     "layer0.tint": [255, 255, 255],
+    //     "layer0.opacity": 0.0,
+    //     "blur": true
+    // },
+    // // Scrollbar - overlay thumb
+    // {
+    //     "class": "puck_control",
+    //     "settings": ["overlay_scroll_bars"],
+    //     "layer0.tint": [255, 255, 255],
+    //     "layer0.opacity": 0.0,
+    //     "blur": true
+    // },
     // Status bar - label ------------------------------------------- STATUS BAR
     {
         "class": "label_control",
