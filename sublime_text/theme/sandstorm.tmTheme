@@ -676,6 +676,20 @@
                     <string>#c88688</string>
                 </dict>
             </dict>
+            <!--                                                  JAVASCRIPT -->
+            <dict>
+                <key>name</key>
+                <string>javascript meta object property</string>
+                <key>scope</key>
+                <string>text.find-in-files entity.name.filename.find-in-files</string>
+                <key>settings</key>
+                <dict>
+                    <key>foreground</key>
+                    <string>#bbb38a</string>
+                    <key>fontStyle</key>
+                    <string>bold</string>
+                </dict>
+            </dict>
             <dict>
                 <key>name</key>
                 <string>javascript function parameter</string>
