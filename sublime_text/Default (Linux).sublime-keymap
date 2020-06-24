@@ -1,14 +1,34 @@
 [
+    // general
+    { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
-    { "keys": ["ctrl+space"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
-    { "keys": ["ctrl+shift+down"], "command": "duplicate_line" },
-    { "keys": ["ctrl+shift+up"], "command": "duplicate_line" },
-    { "keys": ["alt+up"], "command": "swap_line_up" },
-    { "keys": ["alt+down"], "command": "swap_line_down" },
-    { "keys": ["ctrl+h"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
     { "keys": ["ctrl+shift+p"], "command": "prompt_select_workspace" },
+    { "keys": ["alt+g"], "command": "new_pane" },
+    { "keys": ["alt+b"], "command": "close_pane" },
+    { "keys": ["f11"], "command": "toggle_distraction_free" },
+    { "keys": ["f4"], "command": "find_prev" },
+
+    // editing
+    { "keys": ["ctrl+y"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+h"], "command": "duplicate_line" },
+    { "keys": ["ctrl+l"], "command": "swap_line_up" },
+    { "keys": ["ctrl+k"], "command": "swap_line_down" },
     { "keys": ["ctrl+e"], "command": "toggle_comment", "args": { "block": false } },
-    { "keys": ["ctrl+shift-e"], "command": "toggle_comment", "args": { "block": true } },
+    { "keys": ["ctrl+shift+e"], "command": "toggle_comment", "args": { "block": true } },
+    { "keys": ["ctrl+j"], "command": "fold" },
+    { "keys": ["ctrl+;"], "command": "unfold" },
+    { "keys": ["ctrl+shift+l"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+shift+k"], "command": "select_lines", "args": {"forward": true} },
+
+    // navigation
+    { "keys": ["alt+j"], "command": "focus_neighboring_group", "args": {"forward": false} },
+    { "keys": ["alt+;"], "command": "focus_neighboring_group" },
+    { "keys": ["alt+k"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+    { "keys": ["alt+l"], "command": "move_to_neighboring_group" },
+
+    // find and replace
+
+    // plugin: file browser
     {
       "keys": ["f1"],
       "command": "dired",
@@ -19,5 +39,4 @@
         "project": true
       }
     },
-    { "keys": ["f11"], "command": "toggle_distraction_free" },
 ]
