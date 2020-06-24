@@ -1,6 +1,7 @@
 [
     // general
     { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
     { "keys": ["ctrl+shift+p"], "command": "prompt_select_workspace" },
     { "keys": ["alt+g"], "command": "new_pane" },
