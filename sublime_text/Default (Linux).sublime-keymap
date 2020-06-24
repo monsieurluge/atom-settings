@@ -8,6 +8,7 @@
     { "keys": ["alt+b"], "command": "close_pane" },
     { "keys": ["f11"], "command": "toggle_distraction_free" },
     { "keys": ["f4"], "command": "find_prev" },
+    { "keys": ["ctrl+shift+d"], "command": "find_all_under" },
 
     // editing
     { "keys": ["ctrl+y"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
