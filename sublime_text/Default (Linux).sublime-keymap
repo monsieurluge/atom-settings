@@ -7,8 +7,6 @@
     { "keys": ["alt+g"], "command": "new_pane" },
     { "keys": ["alt+b"], "command": "close_pane" },
     { "keys": ["f11"], "command": "toggle_distraction_free" },
-    { "keys": ["f4"], "command": "find_prev" },
-    { "keys": ["ctrl+shift+d"], "command": "find_all_under" },
 
     // editing
     { "keys": ["ctrl+y"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
@@ -24,16 +22,23 @@
     { "keys": ["ctrl+shift+k"], "command": "select_lines", "args": {"forward": true} },
 
     // navigation
-    { "keys": ["alt+j"], "command": "focus_neighboring_group", "args": {"forward": false} },
-    { "keys": ["alt+;"], "command": "focus_neighboring_group" },
-    { "keys": ["alt+k"], "command": "move_to_neighboring_group", "args": {"forward": false} },
-    { "keys": ["alt+l"], "command": "move_to_neighboring_group" },
+    // { "keys": ["ctrl+t"], "command": "focus_side_bar" },
+    // { "keys": ["ctrl+t"], "command": "focus_group", "args": { "group": 0 }, "context": [{"key": "control", "operand": "sidebar_tree"}] },
+    { "keys": ["f8"], "command": "new_pane" },
+    { "keys": ["shift+f8"], "command": "close_pane" },
+    { "keys": ["f9"], "command": "focus_neighboring_group", "args": {"forward": false} },
+    { "keys": ["shift+f9"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+    { "keys": ["f10"], "command": "focus_neighboring_group" },
+    { "keys": ["shift+f10"], "command": "move_to_neighboring_group" },
 
     // find and replace
+    { "keys": ["ctrl+shift+d"], "command": "find_all_under" },
+    { "keys": ["f4"], "command": "find_prev" },
+    { "keys": ["f5"], "command": "find_under" },
 
     // plugin: file browser
     {
-      "keys": ["f1"],
+      "keys": ["ctrl+t"],
       "command": "dired",
       "args": {
         "immediate": true,
