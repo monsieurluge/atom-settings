@@ -22,8 +22,8 @@
     { "keys": ["ctrl+shift+k"], "command": "select_lines", "args": {"forward": true} },
 
     // navigation
-    // { "keys": ["ctrl+t"], "command": "focus_side_bar" },
-    // { "keys": ["ctrl+t"], "command": "focus_group", "args": { "group": 0 }, "context": [{"key": "control", "operand": "sidebar_tree"}] },
+    { "keys": ["f6"], "command": "goto_definition" },
+    { "keys": ["shift+f6"], "command": "goto_reference" },
     { "keys": ["f8"], "command": "new_pane" },
     { "keys": ["shift+f8"], "command": "close_pane" },
     { "keys": ["f9"], "command": "focus_neighboring_group", "args": {"forward": false} },
