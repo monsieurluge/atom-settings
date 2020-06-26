@@ -19,6 +19,8 @@
                     <string>#312c23</string>
                     <key>caret</key>
                     <string>#ffffff</string>
+                    <key>blockCaret</key>
+                    <string>#ffffff90</string>
                     <key>lineHighlight</key>
                     <string>#ffffff10</string>
                     <key>bracketContentsOptions</key>
