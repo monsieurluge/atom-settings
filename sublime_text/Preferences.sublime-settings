@@ -4,7 +4,7 @@
 	"caret_extra_bottom": 0,
 	"caret_extra_top": 0,
 	"caret_extra_width": 3,
-	"caret_style": "phase",
+	"caret_style": "solid",
 	"color_scheme": "Packages/User/theme/sandstorm.tmTheme",
 	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
@@ -20,6 +20,8 @@
 		"Vintage"
 	],
 	"line_numbers": false,
+	"menu_hide": true,
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		80
@@ -30,7 +32,7 @@
 	"theme": "sandstorm.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true",
+	"word_wrap": "true"
     "overlay_scroll_bars": "enabled",
     "menu_hide": true,
     "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip", "node_modules/", "coverage/", "tmp/cache/", "vendor/"],
