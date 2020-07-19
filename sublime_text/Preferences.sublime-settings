@@ -1,5 +1,25 @@
 {
 	"always_show_minimap_viewport": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"node_modules/",
+		"coverage/",
+		"tmp/cache/",
+		"vendor/"
+	],
 	"block_caret": true,
 	"caret_extra_bottom": 0,
 	"caret_extra_top": 0,
@@ -33,7 +53,4 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": "true"
-    "overlay_scroll_bars": "enabled",
-    "menu_hide": true,
-    "binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip", "node_modules/", "coverage/", "tmp/cache/", "vendor/"],
 }
