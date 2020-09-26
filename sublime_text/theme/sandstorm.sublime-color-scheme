@@ -2,14 +2,14 @@
     "name": "sandstorm",
     "variables": {
         "background": "rgb(36, 36, 39)",
-        "c1_base": "rgb(225, 80, 48)",
-        "c2_base": "rgb(232, 186, 99)",
-        "c3_base": "rgb(169, 173, 91)",
+        "c1_base": "rgb(204, 189, 166)",
+        "c2_base": "rgb(225, 80, 48)",
+        "c3_base": "rgb(232, 186, 99)",
         "c4_base": "rgb(141, 179, 128)",
-        "c5_base": "rgb(204, 189, 166)",
-        "c6_base": "rgb(124, 113, 100)",
-        "c7_base": "rgb(63, 57, 54)",
-        "c8_base": "rgb(88, 96, 171)",
+        "c5_base": "rgb(27, 27, 29)",
+        "c6_base": "rgb(63, 57, 54)",
+        "c7_base": "rgb(124, 113, 100)",
+        "c8_base": "rgb(169, 173, 91)",
     },
     "globals":
     {
@@ -17,19 +17,19 @@
         "background": "var(background)",
         "caret": "white",
         "block_caret": "white",
-        "invisibles": "var(c7_base)",
-        "line_highlight": "rgba(0, 0, 0, 0.3)",
-        "bracket_contents_foreground": "var(c1_base)",
-        "brackets_foreground": "var(c1_base)",
+        "invisibles": "var(c6_base)",
+        "line_highlight": "var(c5_base)",
+        "bracket_contents_foreground": "var(c2_base)",
+        "brackets_foreground": "var(c2_base)",
         "tags_options": "underline",
-        "tags_foreground": "var(c1_base)",
+        "tags_foreground": "var(c2_base)",
         "find_highlight": "white",
         "find_highlight_foreground": "var(background)",
         "gutter": "var(background)",
-        "gutter_foreground": "var(c7_base)",
+        "gutter_foreground": "var(c6_base)",
         "selection": "var(background)",
-        "selection_foreground": "var(c5_base)",
-        "selection_border": "var(c7_base)",
+        "selection_foreground": "var(c1_base)",
+        "selection_border": "var(c6_base)",
         "inactive_selection": "rgba(255, 255, 255, 0.1)",
         "guide": "var(background)",
         "highlight": "white",
@@ -39,17 +39,17 @@
         {
             "name": "text and source",
             "scope": "text, source",
-            "foreground": "var(c5_base)"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(c7_base)"
+            "foreground": "var(c6_base)"
         },
         {
             "name": "constant",
             "scope": "constant, constant.language",
-            "foreground": "var(c2_base)"
+            "foreground": "var(c3_base)"
         },
         {
             "name": "number",
@@ -64,17 +64,17 @@
         {
             "name": "constant name",
             "scope": "constant.other",
-            "foreground": "var(c5_base)"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "delimiter",
             "scope": "punctuation.section.block, punctuation.section.function",
-            "foreground": "var(c1_base)"
+            "foreground": "var(c2_base)"
         },
         {
             "name": "function name",
             "scope": "entity.name, support",
-            "foreground": "var(c5_base)"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "???",
@@ -82,34 +82,34 @@
             "foreground": "blue"
         },
         {
-            "name": "???",
+            "name": "markup tag",
             "scope": "entity.name.tag",
-            "foreground": "green"
+            "foreground": "var(c2_base)"
         },
         {
-            "name": "???",
+            "name": "markup parameter",
             "scope": "entity.other.attribute-name",
-            "foreground": "yellow"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "class",
             "scope": "entity.name.class, entity.other.inherited-class, support.class, support.type.exception",
-            "foreground": "var(c2_base)"
+            "foreground": "var(c3_base)"
         },
         {
             "name": "invalid syntax",
             "scope": "invalid",
-            "background": "var(c1_base)"
+            "background": "var(c2_base)"
         },
         {
             "name": "deprecated code",
             "scope": "invalid.deprecated",
-            "background": "var(c3_base)"
+            "background": "var(c8_base)"
         },
         {
             "name": "keyword",
             "scope": "keyword, keyword.control, storage.modifier.extends",
-            "foreground": "var(c1_base)",
+            "foreground": "var(c2_base)",
         },
         {
             "name": "???",
@@ -119,22 +119,22 @@
         {
             "name": "keyword operator",
             "scope": "keyword.operator",
-            "foreground": "var(c5_base)",
+            "foreground": "var(c1_base)",
         },
         {
             "name": "scope modifier",
             "scope": "storage.modifier",
-            "foreground": "var(c6_base)",
+            "foreground": "var(c7_base)",
         },
         {
             "name": "type",
             "scope": "storage.type",
-            "foreground": "var(c2_base)",
+            "foreground": "var(c3_base)",
         },
         {
             "name": "special type",
             "scope": "storage.type.function, storage.type.class",
-            "foreground": "var(c5_base)",
+            "foreground": "var(c1_base)",
         },
         {
             "name": "string",
@@ -144,30 +144,30 @@
         {
             "name": "variable",
             "scope": "variable, variable.function, variable.language, variable.parameter",
-            "foreground": "var(c5_base)",
+            "foreground": "var(c1_base)",
         },
         {
             "name": "source",
             "scope": "meta.statement.import, support.other.namespace, punctuation.separator.namespace, source meta.include string",
-            "foreground": "var(c3_base)"
+            "foreground": "var(c8_base)"
         },
         // ---------------------------------------------------------------- JSON
         {
             "name": "JSON key",
             "scope": "source.json meta.mapping.key.json string.quoted.double.json",
-            "foreground": "var(c1_base)"
+            "foreground": "var(c2_base)"
         },
         // -------------------------------------------------------------- Python
         {
             "name": "delimiter",
             "scope": "storage.type.function.python",
-            "foreground": "var(c1_base)"
+            "foreground": "var(c2_base)"
         },
         // ----------------------------------------------------------------- PHP
         {
             "name": "docblock",
             "scope": "keyword.other.phpdoc",
-            "foreground": "var(c7_base)"
+            "foreground": "var(c6_base)"
         }
     ]
 }
