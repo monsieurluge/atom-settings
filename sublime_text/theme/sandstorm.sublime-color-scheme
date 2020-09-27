@@ -1,15 +1,15 @@
 {
     "name": "sandstorm",
     "variables": {
-        "background": "rgb(36, 36, 39)",
-        "c1_base": "rgb(204, 189, 166)",
-        "c2_base": "rgb(225, 80, 48)",
-        "c3_base": "rgb(232, 186, 99)",
-        "c4_base": "rgb(141, 179, 128)",
-        "c5_base": "rgb(27, 27, 29)",
-        "c6_base": "rgb(63, 57, 54)",
-        "c7_base": "rgb(124, 113, 100)",
-        "c8_base": "rgb(169, 173, 91)",
+        "background": "#282625",
+        "c1_base": "#bab69f",    // code
+        "c2_base": "#f4664a",    // keywords
+        "c3_base": "#e3b48a",    // types
+        "c4_base": "#8baca2",    // strings, numbers
+        "c5_base": "#1b1b1b",    // line highlight
+        "c6_base": "#4e4637",    // comments, gutter
+        "c7_base": "#9f896c",    // scope modifiers
+        "c8_base": "#8d8f53",    // sources
     },
     "globals":
     {
@@ -29,7 +29,7 @@
         "gutter_foreground": "var(c6_base)",
         "selection": "var(background)",
         "selection_foreground": "var(c1_base)",
-        "selection_border": "var(c6_base)",
+        "selection_border": "var(c2_base)",
         "inactive_selection": "rgba(255, 255, 255, 0.1)",
         "guide": "var(background)",
         "highlight": "white",
@@ -67,7 +67,7 @@
             "foreground": "var(c1_base)"
         },
         {
-            "name": "delimiter",
+            "name": "main delimiter",
             "scope": "punctuation.section.block, punctuation.section.function",
             "foreground": "var(c2_base)"
         },
@@ -77,9 +77,9 @@
             "foreground": "var(c1_base)"
         },
         {
-            "name": "???",
+            "name": "markup title",
             "scope": "entity.name.section",
-            "foreground": "blue"
+            "foreground": "var(c2_base)"
         },
         {
             "name": "markup tag",
@@ -114,7 +114,7 @@
         {
             "name": "???",
             "scope": "keyword.declaration",
-            "foreground": "orange",
+            "foreground": "red",
         },
         {
             "name": "keyword operator",
