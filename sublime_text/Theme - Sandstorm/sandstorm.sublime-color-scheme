@@ -32,7 +32,7 @@
         "selection_border": "var(c2_base)",
         "inactive_selection": "rgba(255, 255, 255, 0.1)",
         "guide": "var(background)",
-        "highlight": "white",
+        "highlight": "white"
     },
     "rules":
     [
@@ -112,9 +112,9 @@
             "foreground": "var(c2_base)",
         },
         {
-            "name": "???",
+            "name": "high level keyword",
             "scope": "keyword.declaration",
-            "foreground": "red",
+            "foreground": "var(c2_base)",
         },
         {
             "name": "keyword operator",
