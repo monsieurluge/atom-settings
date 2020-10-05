@@ -151,6 +151,32 @@
             "scope": "meta.statement.import, support.other.namespace, punctuation.separator.namespace, source meta.include string",
             "foreground": "var(c8_base)"
         },
+        // ----------------------------------------------------------------- CSS
+        {
+            "name": "main selector",
+            "scope": "entity.other.attribute-name.id.css, entity.other.attribute-name.class.css, meta.property-name.css",
+            "foreground": "var(c2_base)"
+        },
+        {
+            "name": "pseudo class",
+            "scope": "entity.other.pseudo-class.css",
+            "foreground": "var(c3_base)"
+        },
+        {
+            "name": "property",
+            "scope": "support.type.property-name.css",
+            "foreground": "var(c1_base)"
+        },
+        {
+            "name": "punctuation",
+            "scope": "punctuation.section.property-list.css",
+            "foreground": "var(c2_base)"
+        },
+        {
+            "name": "units",
+            "scope": "keyword.other.unit.css",
+            "foreground": "var(c1_base)"
+        },
         // ---------------------------------------------------------------- JSON
         {
             "name": "JSON key",
