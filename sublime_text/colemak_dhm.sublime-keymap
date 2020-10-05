@@ -2,12 +2,14 @@
     // general
     { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     { "keys": ["ctrl+y"], "command": "prompt_open_file" },
     { "keys": ["ctrl+shift+y"], "command": "prompt_open_folder" },
     { "keys": ["ctrl+shift+;"], "command": "prompt_select_workspace" },
     { "keys": ["f11"], "command": "toggle_distraction_free" },
-    { "keys": ["ctrl+t"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
-    { "keys": ["ctrl+shift+t"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+    // { "keys": ["ctrl+t"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+    { "keys": ["ctrl+t"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+    { "keys": ["ctrl+shift+t"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 
     // editing
     { "keys": ["ctrl+p"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
