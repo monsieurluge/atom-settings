@@ -540,7 +540,7 @@
         },
         {
             "class": "tree_row",
-            "attributes": ["selected"],
+            "attributes": ["hover"],
             "layer0.opacity": 1.0,
         },
         // heading
@@ -553,6 +553,11 @@
             "class": "sidebar_label",
             "color": "var(c1_base)",
             "font.size": 12,
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+            "color": "var(c2_base)",
         },
         // close button
         {
