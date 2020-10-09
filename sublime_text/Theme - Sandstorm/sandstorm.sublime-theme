@@ -257,6 +257,11 @@
             "content_margin": 12
         },
         {
+            "class": "text_output_control",
+            "content_margin": [30, 20, 30, 20],
+            "color_scheme_tint": "var(c5_base)",
+        },
+        {
             "class": "panel_close_button",
             "content_margin": 0,
         },
