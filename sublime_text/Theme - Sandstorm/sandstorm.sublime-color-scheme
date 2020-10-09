@@ -18,7 +18,7 @@
         "caret": "white",
         "block_caret": "white",
         "invisibles": "var(c6_base)",
-        "line_highlight": "var(c5_base)",
+        "line_highlight": "color(black a(0.2))",
         "bracket_contents_foreground": "var(c2_base)",
         "brackets_foreground": "var(c2_base)",
         "tags_options": "underline",
