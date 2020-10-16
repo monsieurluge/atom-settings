@@ -31,6 +31,30 @@
 	"drag_text": false,
 	"draw_indent_guides": false,
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"*.min.js"
+	],
 	"font_face": "Ubuntu Mono",
 	"font_size": 14,
 	"gutter": false,
@@ -39,7 +63,7 @@
 	[
 		"Vintage"
 	],
-	"line_numbers": false,
+	"line_numbers": true,
 	"menu_hide": true,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
