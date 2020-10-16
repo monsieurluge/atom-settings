@@ -99,7 +99,8 @@
         {
             "name": "invalid syntax",
             "scope": "invalid",
-            "background": "var(c2_base)"
+            "background": "var(c2_base)",
+            "foreground": "var(c5_base)"
         },
         {
             "name": "deprecated code",
@@ -176,6 +177,12 @@
             "name": "units",
             "scope": "keyword.other.unit.css",
             "foreground": "var(c1_base)"
+        },
+        // ---------------------------------------------------------- Javascript
+        {
+            "name": "Javascript scope modifier",
+            "scope": "storage.type.js",
+            "foreground": "var(c7_base)"
         },
         // ---------------------------------------------------------------- JSON
         {
