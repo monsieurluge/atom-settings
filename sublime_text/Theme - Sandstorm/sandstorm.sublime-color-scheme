@@ -2,14 +2,16 @@
     "name": "sandstorm",
     "variables": {
         "background": "#282625",
-        "c1_base": "#bab69f",    // code
-        "c2_base": "#f4664a",    // keywords
-        "c3_base": "#e3b48a",    // types
-        "c4_base": "#8baca2",    // strings, numbers
-        "c5_base": "#1b1b1b",    // line highlight
-        "c6_base": "#4e4637",    // comments, gutter
-        "c7_base": "#9f896c",    // scope modifiers
-        "c8_base": "#8d8f53",    // sources
+        "c1_base": "#bab69f",       // code
+        "c2_base": "#f4664a",       // keywords
+        "c3_base": "#e3b48a",       // types
+        "c4_base": "#8baca2",       // strings, numbers
+        "c5_base": "#1b1b1b",       // line highlight
+        "c6_base": "#4e4637",       // comments, gutter
+        "c7_base": "#9f896c",       // scope modifiers
+        "c8_base": "#8d8f53",       // sources
+        "diff_inserted": "#37ad53", // inserted code
+        "diff_deleted": "#cf4545",  // deleted code
     },
     "globals":
     {
@@ -201,6 +203,27 @@
             "name": "docblock",
             "scope": "keyword.other.phpdoc",
             "foreground": "var(c6_base)"
+        },
+        // ------------------------------------------------------------ VCS DIFF
+        {
+            "name": "source",
+            "scope": "meta.diff.header",
+            "foreground": "var(c8_base)"
+        },
+        {
+            "name": "line information",
+            "scope": "meta.diff.range.unified, entity.name.section.diff",
+            "foreground": "var(c6_base)"
+        },
+        {
+            "name": "insertion",
+            "scope": "markup.inserted.diff",
+            "foreground": "var(diff_inserted)"
+        },
+        {
+            "name": "deletion",
+            "scope": "markup.deleted.diff",
+            "foreground": "var(diff_deleted)"
         }
     ]
 }
