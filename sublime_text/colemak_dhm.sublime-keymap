@@ -33,6 +33,12 @@
     // find and replace
     { "keys": ["ctrl+d"], "command": "find_under_expand" },
     { "keys": ["ctrl+shift+d"], "command": "find_all_under" },
+    { "keys": ["ctrl+enter"], "command": "replace_all", "args": {"close_panel": true},
+         "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+    },
+    { "keys": ["ctrl+enter"], "command": "replace_all",
+         "context": [{"key": "panel", "operand": "find_in_files"}, {"key": "panel_has_focus"}]
+    },
     { "keys": ["f4"], "command": "find_prev" },
     { "keys": ["f5"], "command": "find_under" },
 
