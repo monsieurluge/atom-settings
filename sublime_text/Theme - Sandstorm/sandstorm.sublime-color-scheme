@@ -186,6 +186,11 @@
             "scope": "storage.type.js",
             "foreground": "var(c7_base)"
         },
+        {
+            "name": "Javascript function keyword",
+            "scope": "storage.type.function.js",
+            "foreground": "var(c7_base)"
+        },
         // ---------------------------------------------------------------- JSON
         {
             "name": "JSON key",
