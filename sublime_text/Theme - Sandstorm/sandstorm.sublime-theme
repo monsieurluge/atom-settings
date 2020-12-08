@@ -603,6 +603,13 @@
             "layer0.tint": "var(c2_base)",
             "layer0.opacity": 1.0
         },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+            "content_margin": 3,
+            "layer0.tint": "var(c6_base)",
+            "layer0.opacity": 1.0
+        },
         // --------------------------------------------------------------- VIEWS
         {
             "class": "grid_layout_control",
