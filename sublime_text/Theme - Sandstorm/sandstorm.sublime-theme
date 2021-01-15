@@ -525,9 +525,9 @@
         // global container
         {
             "class": "sidebar_container",
-            "content_margin": [0, 0, 0, 20],
+            "content_margin": [0, 0, 1, 0],
             "layer0.draw_center": false,
-            "layer0.tint": "var(background)",
+            "layer0.tint": "var(c5_base)",
             "layer0.opacity": 1.0,
         },
         // tree
@@ -536,6 +536,8 @@
             "row_padding": [16, 8, 8, 0],
             "indent": 16,
             "indent_top_level": true,
+            "layer0.tint": "var(background)",
+            "layer0.opacity": 1.0
         },
         // row
         {
@@ -613,7 +615,7 @@
         // --------------------------------------------------------------- VIEWS
         {
             "class": "grid_layout_control",
-            "border_size": 2,
+            "border_size": 1,
             "border_color": "var(c5_base)"
         },
         {
