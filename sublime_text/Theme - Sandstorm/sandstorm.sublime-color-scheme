@@ -5,7 +5,7 @@
         "c1_base": "#bab69f",       // code
         "c2_base": "#f4664a",       // keywords
         "c3_base": "#e3b48a",       // types
-        "c4_base": "#8baca2",       // strings, numbers
+        "c4_base": "#bab69f",       // strings, numbers
         "c5_base": "#1b1b1b",       // line highlight
         "c6_base": "#4e4637",       // comments, gutter
         "c7_base": "#9f896c",       // scope modifiers
