@@ -229,6 +229,27 @@
             "name": "deletion",
             "scope": "markup.deleted.diff",
             "foreground": "var(diff_deleted)"
-        }
+        },
+        // --------------------------------------------------------------- REACT
+        {
+            "name": "JSX tags",
+            "scope": "entity.name.tag.html.jsx, entity.name.tag.jsx",
+            "foreground": "var(c3_base)"
+        },
+        {
+            "name": "JSX components",
+            "scope": "entity.name.tag.component.jsx",
+            "foreground": "var(c3_base)"
+        },
+        {
+            "name": "JSX import export keywords",
+            "scope": "keyword.control.import-export",
+            "foreground": "var(c8_base)"
+        },
+        {
+            "name": "HTML tag punctuation",
+            "scope": "punctuation.definition.tag",
+            "foreground": "var(c3_base)"
+        },
     ]
 }
