@@ -154,6 +154,11 @@
             "scope": "meta.statement.import, support.other.namespace, punctuation.separator.namespace, source meta.include string",
             "foreground": "var(c8_base)"
         },
+        {
+            "name": "file info (find results)",
+            "scope": "entity.name.filename.find-in-files",
+            "foreground": "var(c2_base)",
+        },
         // ----------------------------------------------------------------- CSS
         {
             "name": "main selector",
