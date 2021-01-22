@@ -214,6 +214,16 @@
             "scope": "keyword.other.phpdoc",
             "foreground": "var(c6_base)"
         },
+        {
+            "name": "namespace",
+            "scope": "entity.name.namespace.php",
+            "foreground": "var(c8_base)"
+        },
+        {
+            "name": "class type",
+            "scope": "storage.type.class.php",
+            "foreground": "var(c7_base)"
+        },
         // ------------------------------------------------------------ VCS DIFF
         {
             "name": "source",
