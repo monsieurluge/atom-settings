@@ -1,0 +1,645 @@
+{
+    "variables":
+    {
+        "background": "#282625",
+        "c1_base": "#bab69f",    // labels
+        "c2_base": "#f4664a",    // highlights, icons
+        "c3_base": "#e3b48a",    // ...
+        "c4_base": "#8baca2",    // ...
+        "c5_base": "#1b1b1b",    // selections, darker background
+        "c6_base": "#4e4637",    // darker labels
+        "c7_base": "#9f896c",    // ...
+        "c8_base": "#8d8f53",    // ...
+    },
+    "rules":
+    [
+        // -------------------------------------------------------------- LABELS
+        {
+            "class": "label_control",
+            "color": "var(c1_base)",
+            "font.size": 12
+        },
+        {
+            "class": "title_label_control",
+            "color": "var(c2_base)",
+            "font.size": 12,
+            "bold": true
+        },
+        // -------------------------------------------------------- AUTOCOMPLETE
+        {
+            "class": "auto_complete",
+            "row_padding": [12, 6],
+            "layer0.tint": "var(background)",
+            "layer0.opacity": 1.0,
+        },
+        {
+            "class": "table_row",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 0.0,
+        },
+        {
+            "class": "table_row",
+            "attributes": ["selected"],
+            "layer0.opacity": 0.2,
+        },
+        {
+            "class": "auto_complete_label",
+            "fg": "var(c1_base)",
+            "match_fg": "var(c2_base)",
+            "selected_fg": "var(c1_base)",
+            "selected_match_fg": "var(c2_base)",
+        },
+        // ------------------------------------------------------------- BUTTONS
+        {
+            "class": "button_control",
+            "content_margin": [6, 8],
+            "min_size": [75, 0],
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 0.1,
+        },
+        {
+            "class": "button_control",
+            "attributes": ["hover"],
+            "layer0.opacity": 0.3,
+        },
+        {
+            "class": "button_control",
+            "attributes": ["pressed"],
+            "layer0.opacity": 0.2,
+        },
+        {
+            "class": "icon_button_group",
+            "spacing": 3
+        },
+        {
+            "class": "icon_button_control",
+            "content_margin": 6,
+            "layer0.inner_margin": 6,
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 0.0,
+        },
+        {
+            "class": "icon_button_control",
+            "attributes": ["hover"],
+            "layer0.opacity": 0.2
+        },
+        {
+            "class": "icon_button_control",
+            "attributes": ["pressed"],
+            "layer0.opacity": 0.3
+        },
+        // dedicated icons
+        {
+            "class": "icon_regex",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/regex.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_regex",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
+            "class": "icon_case",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/case.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_case",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
+            "class": "icon_highlight",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/highlight.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_highlight",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
+            "class": "icon_in_selection",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/in_selection.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_in_selection",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
+            "class": "icon_reverse",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/TEMP_ICON.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_reverse",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
+            "class": "icon_whole_word",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/whole.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_whole_word",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
+            "class": "icon_wrap",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/wrap.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_wrap",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
+            "class": "icon_preserve_case",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/preserve_case.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_preserve_case",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
+            "class": "icon_context",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/show_context.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_context",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
+            "class": "icon_use_buffer",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/use_buffer.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_use_buffer",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        // ------------------------------------------------------------- DIALOGS
+        {
+            "class": "dialog",
+            "layer0.tint": "red",
+            "layer0.opacity": 1.0
+        },
+        // -------------------------------------------------------------- INPUTS
+        {
+            "class": "text_line_control",
+            "content_margin": [8, 6],
+            "color_scheme_tint": "var(c5_base)",
+        },
+        {
+            "class": "dropdown_button_control",
+            "content_margin": 8,
+            "layer0.texture": "Theme - Sandstorm/assets/chevron_down.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0,
+        },
+        {
+            "class": "dropdown_button_control",
+            "attributes": ["hover"],
+            "layer0.tint": "var(c2_base)"
+        },
+        // -------------------------------------------------------------- PANELS
+        {
+            "class": "panel_control",
+            "content_margin": [6, 12, 6, 11],
+            "layer0.tint": "var(c5_base)",
+            "layer0.opacity": 1.0,
+        },
+        {
+            "class": "panel_control input_panel",
+            "content_margin": 12
+        },
+        {
+            "class": "panel_control output_panel",
+            "content_margin": [0, 8]
+        },
+        {
+            "class": "panel_control console_panel",
+            "content_margin": 12
+        },
+        {
+            "class": "panel_control switch_panel",
+            "content_margin": 12
+        },
+        {
+            "class": "text_output_control",
+            "content_margin": [30, 20, 30, 20],
+            "color_scheme_tint": "var(c5_base)",
+        },
+        {
+            "class": "panel_close_button",
+            "content_margin": 0,
+        },
+        // -------------------------------------------------------- PROGRESS BAR
+        {
+            "class": "progress_bar_control",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "progress_gauge_control",
+            "layer0.tint": "var(c2_base)",
+            "content_margin": [0, 6]
+        },
+        // --------------------------------------------------------- QUICK PANEL
+        {
+            "class": "overlay_control",
+            "content_margin": 30,
+            "layer0.tint": "var(c5_base)",
+            "layer0.opacity": 1.0,
+        },
+        {
+            "class": "quick_panel",
+            "row_padding": [16, 8],
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 0.0,
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": ["hover"],
+            "layer0.opacity": 0.1,
+        },
+        {
+            "class": "mini_quick_panel_row",
+            "attributes": ["selected"],
+            "layer0.opacity": 0.2,
+        },
+        {
+            "class": "quick_panel_row",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 0.0,
+        },
+        {
+            "class": "quick_panel_row",
+            "attributes": ["hover"],
+            "layer0.opacity": 0.1,
+        },
+        {
+            "class": "quick_panel_row",
+            "attributes": ["selected"],
+            "layer0.opacity": 0.2,
+        },
+        {
+            "class": "quick_panel_label",
+            "fg": "var(c1_base)",
+            "match_fg": "var(c2_base)",
+            "selected_fg": "var(c1_base)",
+            "selected_match_fg": "var(c2_base)"
+        },
+        {
+            "class": "quick_panel_path_label",
+            "fg": "var(c7_base)",
+            "match_fg": "var(c1_base)",
+            "selected_fg": "var(c7_base)",
+            "selected_match_fg": "var(c1_base)"
+        },
+        // ----------------------------------------------------------- SCROLLBAR
+        // container
+        // {
+        //     "class": "scroll_area_control",
+        //     "attributes": ["scrollable", "hscrollable"],
+        //     "top_shadow": [255, 0, 0],
+        //     "top_shadow_size": 10,
+        //     "bottom_shadow": [255, 0, 0],
+        //     "bottom_shadow_size": 10,
+        // },
+        // {
+        //     "class": "scroll_bar_control",
+        //     "parents": [{ "class": "sidebar_container" }],
+        //     "layer0.tint": "var(c5_base)",
+        //     "layer0.opacity": 0.0,
+        //     "blur": false
+        // },
+        // {
+        //     "class": "scroll_bar_control",
+        //     "parents": [{ "class": "edit_window" }],
+        //     "layer0.tint": "var(c5_base)",
+        //     "layer0.opacity": 0.0,
+        //     "blur": false
+        // },
+        // {
+        //     "class": "scroll_bar_control",
+        //     "parents": [{ "class": "overlay_control" }],
+        //     "layer0.tint": "var(c5_base)",
+        //     "layer0.opacity": 0.0,
+        //     "blur": false
+        // },
+        // // corner
+        // {
+        //     "class": "scroll_corner_control",
+        //     "layer0.tint": "var(c5_base)",
+        //     "layer0.opacity": 0.0,
+        // },
+        // {
+        //     "class": "scroll_corner_control",
+        //     "parents": [{ "class": "edit_window" }],
+        //     "layer0.tint": "var(c5_base)",
+        //     "layer0.opacity": 0.0,
+        // },
+        // // vertical thumb
+        // {
+        //     "class": "puck_control",
+        //     "content_margin": [3, 3],
+        //     "layer0.tint": [255, 255, 255],
+        //     "layer0.opacity": 0.0,
+        //     "blur": true
+        // },
+        // // horizontal thumb
+        // {
+        //     "class": "puck_control",
+        //     "attributes": ["horizontal"],
+        //     "content_margin": [3, 3],
+        //     "layer0.inner_margin": [4, 1]
+        // },
+        // // overlay
+        // {
+        //     "class": "scroll_area_control",
+        //     "overlay": true
+        // },
+        // // no overlay
+        // {
+        //     "class": "scroll_area_control",
+        //     "settings": ["!overlay_scroll_bars"],
+        //     "overlay": false
+        // },
+        // // overlay background
+        // {
+        //     "class": "scroll_bar_control",
+        //     "settings": ["overlay_scroll_bars"],
+        //     "layer0.tint": [255, 255, 255],
+        //     "layer0.opacity": 0.0,
+        //     "blur": true
+        // },
+        // // overlay thumb
+        // {
+        //     "class": "puck_control",
+        //     "settings": ["overlay_scroll_bars"],
+        //     "layer0.tint": [255, 255, 255],
+        //     "layer0.opacity": 0.0,
+        //     "blur": true
+        // },
+        // ---------------------------------------------------------- STATUS BAR
+        {
+            "class": "status_bar",
+            "layer0.tint": "var(c5_base)",
+            "content_margin": [18, 6],
+            "layer0.opacity": 1.0,
+        },
+        {
+            "class": "panel_button_control",
+            "content_margin": 10,
+            "layer0.texture": "Theme - Sandstorm/assets/menu.png",
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 0.6
+        },
+        {
+            "class": "status_button",
+            "content_margin": [8, 3, 8, 3],
+            "min_size": [70, 22]
+        },
+        // ------------------------------------------------ SWITCH PROJECT PANEL
+        {
+            "class": "quick_panel",
+            "parents": [{"class": "switch_project_window"}],
+            "layer0.tint": "var(c5_base)",
+            "layer0.opacity": 1.0
+        },
+        // ---------------------------------------------------------------- TABS
+        // tab set
+        {
+            "class": "tabset_control",
+            "content_margin": 0,
+            "layer0.tint": "var(background)",
+            "layer0.opacity": 1.0,
+            "tab_overlap": 1,
+            "tab_min_width": 100,
+            "tab_height": 36,
+            "mouse_wheel_switch": false
+        },
+        // left scroll button
+        {
+            "class": "scroll_tabs_left_button",
+            "content_margin": [0, 0]
+        },
+        // right scroll button
+        {
+            "class": "scroll_tabs_right_button",
+            "content_margin": [0, 0]
+        },
+        // tab
+        {
+            "class": "tab_control",
+            "content_margin": [16, 0, 16, 0],
+            "max_margin_trim": 6,
+        },
+        // label
+        {
+            "class": "tab_label",
+            "fg": "var(c6_base)",
+            "font.size": 12,
+        },
+        // label - selected
+        {
+            "class": "tab_label",
+            "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+            "fg": "var(c1_base)",
+        },
+        // label - dirty
+        {
+            "class": "tab_label",
+            "parents": [{"class": "tab_control"}],
+            "attributes": ["dirty"],
+            "settings": ["highlight_modified_tabs"],
+            "fg": "var(c1_base)"
+        },
+        // label - transient
+        {
+            "class": "tab_label",
+            "attributes": ["transient"],
+            "font.italic": true
+        },
+        // close button
+        {
+            "class": "tab_close_button",
+            "content_margin": [0, 0],
+        },
+        // "show tabs" dropdown button
+        {
+            "class": "show_tabs_dropdown_button",
+            "content_margin": [0, 0],
+        },
+        // ------------------------------------------------------------- TOOLTIP
+        // background
+        {
+            "class": "tool_tip_control",
+            "content_margin": [10, 10],
+            "layer0.texture": "Theme - Sandstorm/assets/TEMP_BG.png",
+            "layer0.inner_margin": [3, 3],
+            "layer0.opacity": 1.0
+        },
+        // label
+        {
+            "class": "tool_tip_label_control",
+            "color": [255, 255, 255],
+            "font.size": 12
+        },
+        // ----------------------------------------------------------- TREE VIEW
+        // global container
+        {
+            "class": "sidebar_container",
+            "content_margin": [0, 0, 1, 0],
+            "layer0.draw_center": false,
+            "layer0.tint": "var(c5_base)",
+            "layer0.opacity": 1.0,
+        },
+        // tree
+        {
+            "class": "sidebar_tree",
+            "row_padding": [16, 8, 8, 0],
+            "indent": 16,
+            "indent_top_level": true,
+            "layer0.tint": "var(background)",
+            "layer0.opacity": 1.0
+        },
+        // row
+        {
+            "class": "tree_row",
+            "layer0.tint": "var(c5_base)",
+            "layer0.opacity": 0.0,
+        },
+        {
+            "class": "tree_row",
+            "attributes": ["hover"],
+            "layer0.opacity": 1.0,
+        },
+        // heading
+        {
+            "class": "sidebar_heading",
+            "color": "transparent",
+        },
+        // label
+        {
+            "class": "sidebar_label",
+            "color": "var(c1_base)",
+            "font.size": 12,
+        },
+        {
+            "class": "sidebar_label",
+            "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+            "color": "var(c2_base)",
+        },
+        // close button
+        {
+            "class": "close_button",
+            "content_margin": 0,
+        },
+        // expand and collapse
+        {
+            "class": "disclosure_button_control",
+            "content_margin": 8,
+            "layer0.texture": "Theme - Sandstorm/assets/folded.png",
+            "layer0.tint": "var(c2_base)",
+            "layer0.opacity": 1.0,
+            "layer1.texture": "Theme - Sandstorm/assets/unfolded.png",
+            "layer1.tint": "var(c2_base)",
+            "layer1.opacity": 0.0,
+        },
+        {
+            "class": "disclosure_button_control",
+            "attributes": ["expanded"],
+            "layer0.opacity": 0.0,
+            "layer1.opacity": 1.0
+        },
+        // folder
+        {
+            "class": "icon_folder",
+            "content_margin": 0,
+        },
+        // file
+        {
+            "class": "icon_file_type",
+            "content_margin": 0,
+        },
+        // versionning
+        {
+            "class": "vcs_status_badge",
+            "content_margin": 3,
+            "layer0.tint": "var(c2_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "vcs_status_badge",
+            "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+            "content_margin": 3,
+            "layer0.tint": "var(c6_base)",
+            "layer0.opacity": 1.0
+        },
+        // --------------------------------------------------------------- VIEWS
+        {
+            "class": "grid_layout_control",
+            "border_size": 1,
+            "border_color": "var(c5_base)"
+        },
+        {
+            "class": "minimap_control",
+            "viewport_color": "var(c1_base)",
+            "viewport_opacity": 0.0
+        },
+        {
+            "class": "minimap_control",
+            "attributes": ["hover"],
+            "viewport_opacity": 0.1
+        },
+        {
+            "class": "fold_button_control",
+            "content_margin": 8,
+            "layer0.texture": "Theme - Sandstorm/assets/folded.png",
+            "layer0.tint": "var(c2_base)",
+            "layer0.inner_margin": 2,
+            "layer0.opacity": 1.0,
+        },
+        {
+            "class": "fold_button_control",
+            "attributes": ["expanded"],
+            "layer0.opacity": 0.0,
+        },
+    ]
+}
