@@ -91,7 +91,7 @@
         {
             "name": "markup parameter",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(c1_base)"
+            "foreground": "var(c7_base)"
         },
         {
             "name": "class",
@@ -265,6 +265,6 @@
             "name": "HTML tag punctuation",
             "scope": "punctuation.definition.tag",
             "foreground": "var(c3_base)"
-        },
+        }
     ]
 }
