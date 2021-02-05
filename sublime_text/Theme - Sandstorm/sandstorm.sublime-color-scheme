@@ -159,6 +159,16 @@
             "scope": "entity.name.filename.find-in-files",
             "foreground": "var(c2_base)",
         },
+        {
+            "name": "find results line number",
+            "scope": "constant.numeric.line-number.find-in-files",
+            "foreground": "var(c6_base)"
+        },
+        {
+            "name": "find results matching line number",
+            "scope": "constant.numeric.line-number.match.find-in-files",
+            "foreground": "var(c2_base)"
+        },
         // ----------------------------------------------------------------- CSS
         {
             "name": "main selector",
