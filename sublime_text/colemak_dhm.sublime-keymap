@@ -46,4 +46,9 @@
 
     // plugins
     { "keys": ["ctrl+shift+a"], "command": "valign" }, // VAlign
+    {
+        "keys": ["f6"],
+        "command": "double_click_at_caret",
+        "context": [{ "key": "selector", "operator": "equal", "operand": "text.find-in-files", "match_all": true }],
+    },
 ]
