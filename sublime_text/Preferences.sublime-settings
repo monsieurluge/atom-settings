@@ -14,11 +14,7 @@
 		"*.pdf",
 		"*.swf",
 		"*.jar",
-		"*.zip",
-		"node_modules/",
-		"coverage/",
-		"tmp/cache/",
-		"vendor/"
+		"*.zip"
 	],
 	"block_caret": true,
 	"caret_extra_bottom": 0,
@@ -54,6 +50,14 @@
 		"*.db",
 		"*.sublime-workspace",
 		"*.min.js"
+	],
+	"folder_exclude_patterns":
+	[
+		"node_modules",
+		"coverage",
+		"tmp/cache",
+		"cache",
+		".git"
 	],
 	"font_face": "Ubuntu Mono",
 	"font_size": 14,
