@@ -158,7 +158,7 @@
             "foreground": "var(c8_base)"
         },
         {
-            "name": "file info (find results)",
+            "name": "find results file info",
             "scope": "entity.name.filename.find-in-files",
             "foreground": "var(c2_base)",
         },
@@ -170,7 +170,7 @@
         {
             "name": "find results matching line number",
             "scope": "constant.numeric.line-number.match.find-in-files",
-            "foreground": "var(c2_base)"
+            "foreground": "var(c7_base)"
         },
         // ----------------------------------------------------------------- CSS
         {
