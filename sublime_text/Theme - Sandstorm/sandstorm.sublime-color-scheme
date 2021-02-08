@@ -27,7 +27,7 @@
         "bracket_contents_foreground": "white",
         "tags_options": "underline",
         "tags_foreground": "var(c2_base)",
-        "find_highlight": "white",
+        "find_highlight": "var(c2_base)",
         "find_highlight_foreground": "var(background)",
         "gutter": "var(background)",
         "gutter_foreground": "var(c6_base)",
