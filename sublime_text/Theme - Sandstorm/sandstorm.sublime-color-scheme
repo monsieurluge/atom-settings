@@ -104,13 +104,12 @@
         {
             "name": "invalid syntax",
             "scope": "invalid",
-            "background": "var(c2_base)",
-            "foreground": "var(c5_base)"
+            "background": "color(red alpha(0.2))",
         },
         {
             "name": "deprecated code",
             "scope": "invalid.deprecated",
-            "background": "var(c8_base)"
+            "background": "color(brown alpha(0.2))"
         },
         {
             "name": "keyword",
