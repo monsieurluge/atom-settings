@@ -19,7 +19,7 @@
         "background": "var(background)",
         "caret": "white",
         "block_caret": "white",
-        "invisibles": "var(c6_base)",
+        "invisibles": "var(c2_base)",
         "line_highlight": "color(black a(0.2))",
         "bracket_contents_foreground": "var(c2_base)",
         "brackets_foreground": "var(c2_base)",
@@ -29,12 +29,13 @@
         "find_highlight_foreground": "var(background)",
         "gutter": "var(background)",
         "gutter_foreground": "var(c6_base)",
-        "selection": "var(background)",
-        "selection_foreground": "var(c1_base)",
+        "selection": "var(c2_base)",
+        "selection_foreground": "var(background)",
         "selection_border": "var(c2_base)",
-        "inactive_selection": "rgba(255, 255, 255, 0.1)",
+        "selection_border_width": "2",
+        "inactive_selection": "var(c2_base)",
         "guide": "var(background)",
-        "highlight": "white"
+        "highlight": "var(c2_base)"
     },
     "rules":
     [
