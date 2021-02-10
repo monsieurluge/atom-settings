@@ -1,14 +1,14 @@
 {
     "name": "sandstorm",
     "variables": {
-        "background": "#282625",
-        "c1_base": "#bab69f",       // code
-        "c2_base": "#f4664a",       // keywords
-        "c3_base": "#e3b48a",       // types
-        "c4_base": "#bab69f",       // strings, numbers
-        "c5_base": "#1b1b1b",       // line highlight
-        "c6_base": "#4e4637",       // comments, gutter
-        "c7_base": "#9f896c",       // scope modifiers
+        "background": "#454142",    // 4287C
+        "c1_base": "#E4D5D3",       // 7604C - code
+        "c2_base": "#FE5000",       // 021C - keywords
+        "c3_base": "#DDA46F",       // 721C - types
+        "c4_base": "#9AAB9E",       // 4184C - strings, numbers
+        "c5_base": "#373A36",       // line highlight
+        "c6_base": "#796E65",       // Warm Gray 10C - comments, gutter
+        "c7_base": "#BA9682",       // 4045C - scope modifiers
         "c8_base": "#8d8f53",       // sources
         "diff_inserted": "#37ad53", // inserted code
         "diff_deleted": "#cf4545",  // deleted code
@@ -20,15 +20,13 @@
         "caret": "white",
         "block_caret": "white",
         "invisibles": "color(var(c2_base) alpha(0.7))",
-        "line_highlight": "color(black a(0.2))",
+        "line_highlight": "var(c5_base)",
         "brackets_options": "underline",
         "brackets_foreground": "white",
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "white",
         "tags_options": "underline",
         "tags_foreground": "var(c2_base)",
-        "find_highlight": "var(c2_base)",
-        "find_highlight_foreground": "var(background)",
         "gutter": "var(background)",
         "gutter_foreground": "var(c6_base)",
         "selection": "var(c2_base)",
@@ -36,8 +34,10 @@
         "selection_border": "var(c2_base)",
         "selection_border_width": "2",
         "inactive_selection": "var(c2_base)",
+        "highlight": "var(c2_base)",
+        "find_highlight": "var(c2_base)",
+        "find_highlight_foreground": "var(background)",
         "guide": "var(background)",
-        "highlight": "var(c2_base)"
     },
     "rules":
     [
