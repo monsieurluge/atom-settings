@@ -42,6 +42,7 @@
         "find_highlight": "var(c2_base)",
         "find_highlight_foreground": "var(background)",
         "guide": "var(background)",
+        "line_diff_width": "2",
         "line_diff_added": "var(diff_added)",
         "line_diff_deleted": "var(diff_deleted)",
         "line_diff_modified": "var(diff_modified)",
