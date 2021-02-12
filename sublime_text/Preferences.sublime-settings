@@ -53,11 +53,12 @@
 	],
 	"folder_exclude_patterns":
 	[
-		"node_modules",
-		"coverage",
-		"tmp/cache",
+		".git",
 		"cache",
-		".git"
+		"coverage",
+		"node_modules",
+		"tmp/cache",
+		"data/polygones",
 	],
 	"font_face": "Ubuntu Mono",
 	"font_size": 14,
