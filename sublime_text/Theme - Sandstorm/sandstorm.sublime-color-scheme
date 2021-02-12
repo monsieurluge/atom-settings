@@ -57,7 +57,8 @@
         {
             "name": "comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c4_base)",
+            "selection_foreground": "color(var(background) blend(var(c2_base) 50%))",
         },
         {
             "name": "constant",
