@@ -1,44 +1,51 @@
 {
     "name": "sandstorm",
     "variables": {
-        "background": "#282625",
-        "c1_base": "#bab69f",       // code
-        "c2_base": "#f4664a",       // keywords
-        "c3_base": "#e3b48a",       // types
-        "c4_base": "#bab69f",       // strings, numbers
-        "c5_base": "#1b1b1b",       // line highlight
-        "c6_base": "#4e4637",       // comments, gutter
-        "c7_base": "#9f896c",       // scope modifiers
-        "c8_base": "#8d8f53",       // sources
-        "diff_inserted": "#37ad53", // inserted code
-        "diff_deleted": "#cf4545",  // deleted code
-        "invalid": "color(red alpha(0.2))",
+        "background": "#3b3a36",    // main background _ peat
+        // foreground variables
+        "c1_base": "#e5ccaf",       // code _ gray sand
+        "c2_base": "#fc9e21",       // keywords _ radiant yellow
+        "c3_base": "#bd8b69",       // types, scope modifiers _ sandstorm
+        "c4_base": "#685e4f",       // comments, gutter _ stone gray
+        // background variables
+        "c5_base": "#44413c",       // line highlight _ black ink
+        "c6_base": "#9e1030",       // invalid _ jester red
+        "c7_base": "black",         // unused
+        "c8_base": "black",         // unused
+        // misc
+        "diff_added": "#79b465",    // inserted code _ bud green
+        "diff_deleted": "#c84c61",  // deleted code _ claret red
+        "diff_modified": "#72a8ba", // modified code _ milky blue
     },
     "globals":
     {
-        "foreground": "var(background)",
+        "foreground": "var(background)", // rulers
         "background": "var(background)",
         "caret": "white",
         "block_caret": "white",
         "invisibles": "color(var(c2_base) alpha(0.7))",
-        "line_highlight": "color(black a(0.2))",
+        "line_highlight": "var(c5_base)",
         "brackets_options": "underline",
         "brackets_foreground": "white",
         "bracket_contents_options": "underline",
         "bracket_contents_foreground": "white",
         "tags_options": "underline",
         "tags_foreground": "var(c2_base)",
-        "find_highlight": "var(c2_base)",
-        "find_highlight_foreground": "var(background)",
         "gutter": "var(background)",
-        "gutter_foreground": "var(c6_base)",
+        "gutter_foreground": "var(c4_base)",
         "selection": "var(c2_base)",
         "selection_foreground": "var(background)",
         "selection_border": "var(c2_base)",
         "selection_border_width": "2",
         "inactive_selection": "var(c2_base)",
+        "highlight": "var(c2_base)",
+        "find_highlight": "var(c2_base)",
+        "find_highlight_foreground": "var(background)",
         "guide": "var(background)",
-        "highlight": "var(c2_base)"
+        "line_diff_width": "2",
+        "line_diff_added": "var(diff_added)",
+        "line_diff_deleted": "var(diff_deleted)",
+        "line_diff_modified": "var(diff_modified)",
     },
     "rules":
     [
@@ -50,7 +57,8 @@
         {
             "name": "comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(c6_base)"
+            "foreground": "var(c4_base)",
+            "selection_foreground": "color(var(background) blend(var(c2_base) 50%))",
         },
         {
             "name": "constant",
@@ -60,12 +68,12 @@
         {
             "name": "number",
             "scope": "constant.numeric",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "escape character",
             "scope": "constant.character.escape",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "constant name",
@@ -95,7 +103,7 @@
         {
             "name": "markup parameter",
             "scope": "entity.other.attribute-name",
-            "foreground": "var(c7_base)"
+            "foreground": "var(c3_base)"
         },
         {
             "name": "class",
@@ -105,12 +113,14 @@
         {
             "name": "invalid syntax",
             "scope": "invalid",
-            "background": "var(invalid)",
+            "background": "var(c6_base)",
+            "selection_foreground": "var(c6_base)",
         },
         {
             "name": "deprecated code",
             "scope": "invalid.deprecated",
-            "background": "color(brown alpha(0.2))"
+            "background": "var(c6_base)",
+            "selection_foreground": "var(c6_base)",
         },
         {
             "name": "keyword",
@@ -130,7 +140,7 @@
         {
             "name": "scope modifier",
             "scope": "storage.modifier",
-            "foreground": "var(c7_base)",
+            "foreground": "var(c3_base)",
         },
         {
             "name": "type",
@@ -145,7 +155,7 @@
         {
             "name": "string",
             "scope": "string",
-            "foreground": "var(c4_base)",
+            "foreground": "var(c1_base)",
         },
         {
             "name": "variable",
@@ -155,7 +165,7 @@
         {
             "name": "source",
             "scope": "meta.statement.import, support.other.namespace, punctuation.separator.namespace, source meta.include string",
-            "foreground": "var(c8_base)"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "find results file info",
@@ -165,12 +175,12 @@
         {
             "name": "find results line number",
             "scope": "constant.numeric.line-number.find-in-files",
-            "foreground": "var(c6_base)"
+            "foreground": "var(c4_base)"
         },
         {
             "name": "find results matching line number",
             "scope": "constant.numeric.line-number.match.find-in-files",
-            "foreground": "var(c7_base)"
+            "foreground": "var(c3_base)"
         },
         // ----------------------------------------------------------------- CSS
         {
@@ -202,7 +212,7 @@
         {
             "name": "Javascript scope modifier",
             "scope": "storage.type.js",
-            "foreground": "var(c7_base)"
+            "foreground": "var(c3_base)"
         },
         {
             "name": "Javascript function keyword",
@@ -212,7 +222,8 @@
         {
             "name": "console.log sentence",
             "scope": "source.js support.type.object.console.js, source.js support.function.console.js",
-            "background": "var(invalid)",
+            "background": "var(c6_base)",
+            "selection_foreground": "var(c6_base)",
         },
         // ---------------------------------------------------------------- JSON
         {
@@ -230,33 +241,33 @@
         {
             "name": "docblock",
             "scope": "keyword.other.phpdoc",
-            "foreground": "var(c6_base)"
+            "foreground": "var(c4_base)"
         },
         {
             "name": "namespace",
             "scope": "entity.name.namespace.php",
-            "foreground": "var(c8_base)"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "class type",
             "scope": "storage.type.class.php",
-            "foreground": "var(c7_base)"
+            "foreground": "var(c3_base)"
         },
         // ------------------------------------------------------------ VCS DIFF
         {
             "name": "source",
             "scope": "meta.diff.header",
-            "foreground": "var(c8_base)"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "line information",
             "scope": "meta.diff.range.unified, entity.name.section.diff",
-            "foreground": "var(c6_base)"
+            "foreground": "var(c4_base)"
         },
         {
             "name": "insertion",
             "scope": "markup.inserted.diff",
-            "foreground": "var(diff_inserted)"
+            "foreground": "var(diff_added)"
         },
         {
             "name": "deletion",
@@ -277,7 +288,7 @@
         {
             "name": "JSX import export keywords",
             "scope": "keyword.control.import-export",
-            "foreground": "var(c8_base)"
+            "foreground": "var(c1_base)"
         },
         {
             "name": "HTML tag punctuation",
