@@ -9,6 +9,7 @@
     { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
     { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
     { "keys": ["f7"], "command": "toggle_setting", "args": {"setting": "gutter"} },
+    { "keys": ["f1"], "command": "new_plugin" },
 
     // editing
     { "keys": ["ctrl+b"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
