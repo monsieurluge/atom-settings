@@ -114,11 +114,13 @@
             "name": "invalid syntax",
             "scope": "invalid",
             "background": "var(c6_base)",
+            "selection_foreground": "var(c6_base)",
         },
         {
             "name": "deprecated code",
             "scope": "invalid.deprecated",
-            "background": "color(brown alpha(0.2))"
+            "background": "var(c6_base)",
+            "selection_foreground": "var(c6_base)",
         },
         {
             "name": "keyword",
@@ -221,6 +223,7 @@
             "name": "console.log sentence",
             "scope": "source.js support.type.object.console.js, source.js support.function.console.js",
             "background": "var(c6_base)",
+            "selection_foreground": "var(c6_base)",
         },
         // ---------------------------------------------------------------- JSON
         {
