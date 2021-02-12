@@ -12,6 +12,7 @@
         "c8_base": "#8d8f53",       // sources
         "diff_inserted": "#37ad53", // inserted code
         "diff_deleted": "#cf4545",  // deleted code
+        "invalid": "color(red alpha(0.2))",
     },
     "globals":
     {
@@ -104,7 +105,7 @@
         {
             "name": "invalid syntax",
             "scope": "invalid",
-            "background": "color(red alpha(0.2))",
+            "background": "var(invalid)",
         },
         {
             "name": "deprecated code",
@@ -207,6 +208,11 @@
             "name": "Javascript function keyword",
             "scope": "storage.type.function.js",
             "foreground": "var(c2_base)"
+        },
+        {
+            "name": "console.log sentence",
+            "scope": "source.js support.type.object.console.js, source.js support.function.console.js",
+            "background": "var(invalid)",
         },
         // ---------------------------------------------------------------- JSON
         {
