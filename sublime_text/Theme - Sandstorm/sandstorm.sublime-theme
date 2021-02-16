@@ -291,9 +291,6 @@
         },
         {
             "class": "mini_quick_panel_row",
-        },
-        {
-            "class": "mini_quick_panel_row",
             "attributes": ["hover"],
             "layer0.tint": "var(c1_base)",
             "layer0.opacity": 0.1,
