@@ -291,6 +291,11 @@
         },
         {
             "class": "mini_quick_panel_row",
+            "layer0.tint": "var(c5_base)",
+            "layer0.opacity": 1.0,
+        },
+        {
+            "class": "mini_quick_panel_row",
             "attributes": ["hover"],
             "layer0.tint": "var(c1_base)",
             "layer0.opacity": 0.1,
