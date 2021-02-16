@@ -550,8 +550,7 @@
         {
             "class": "vcs_status_badge",
             "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}],
-            "layer0.tint": "var(c6_base)",
-            "layer0.opacity": 1.0
+            "layer0.tint": "var(c4_base)",
         },
         {
             "class": "vcs_status_badge",
