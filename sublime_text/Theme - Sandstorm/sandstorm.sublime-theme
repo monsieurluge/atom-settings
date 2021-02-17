@@ -336,9 +336,9 @@
         },
         {
             "class": "quick_panel_path_label",
-            "fg": "var(c3_base)",
+            "fg": "var(c4_base)",
             "match_fg": "var(c1_base)",
-            "selected_fg": "var(c1_base)",
+            "selected_fg": "var(c3_base)",
             "selected_match_fg": "var(c2_base)"
         },
         // ---------------------------------------------------------- STATUS BAR
