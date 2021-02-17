@@ -214,7 +214,7 @@
         // ------------------------------------------------------------- DIALOGS
         {
             "class": "dialog",
-            "layer0.tint": "red",
+            "layer0.tint": "var(c5_base)",
             "layer0.opacity": 1.0
         },
         // -------------------------------------------------------------- INPUTS
@@ -288,6 +288,10 @@
         {
             "class": "quick_panel",
             "row_padding": [16, 8],
+            "layer0.tint": "var(c5_base)",
+            "layer0.opacity": 1.0,
+            "layer1.tint": "var(c5_base)",
+            "layer1.opacity": 1.0,
         },
         {
             "class": "mini_quick_panel_row",
@@ -310,18 +314,18 @@
             "class": "quick_panel_row",
             "layer0.tint": "var(c5_base)",
             "layer0.opacity": 1.0,
+            "layer1.tint": "var(c1_base)",
+            "layer1.opacity": 0.0,
         },
         {
             "class": "quick_panel_row",
             "attributes": ["hover"],
-            "layer0.tint": "var(c1_base)",
-            "layer0.opacity": 0.1,
+            "layer1.opacity": 0.1,
         },
         {
             "class": "quick_panel_row",
             "attributes": ["selected"],
-            "layer0.tint": "var(c1_base)",
-            "layer0.opacity": 0.2,
+            "layer1.opacity": 0.2,
         },
         {
             "class": "quick_panel_label",
