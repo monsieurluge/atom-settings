@@ -536,7 +536,7 @@
             "class": "vcs_status_badge",
             "content_margin": 3,
             "layer0.tint": "var(c1_base)",
-            "layer0.opacity": 0.2
+            "layer0.opacity": 0.0
         },
         {
             "class": "vcs_status_badge",
@@ -548,7 +548,7 @@
             "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
             "content_margin": 3,
             "layer0.tint": "var(c1_base)",
-            "layer0.opacity": 0.2
+            "layer0.opacity": 0.0
         },
         {
             "class": "vcs_status_badge",
