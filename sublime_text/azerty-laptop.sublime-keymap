@@ -3,12 +3,11 @@
     { "keys": ["ctrl+shift+q"], "command": "exit" },
     { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
-    { "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+    { "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["ctrl+h"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
     { "keys": ["ctrl+shift+p"], "command": "prompt_select_workspace" },
     { "keys": ["f11"], "command": "toggle_distraction_free" },
-    { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
-    { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
     { "keys": ["f7"], "command": "toggle_setting", "args": {"setting": "gutter"} },
     { "keys": ["f1"], "command": "new_plugin" },
     { "keys": ["f2"], "command": "prompt_open_project_or_workspace" },
@@ -39,6 +38,8 @@
     { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
 
     // find and replace
+    { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+    { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
     { "keys": ["ctrl+d"], "command": "find_under_expand" },
     { "keys": ["ctrl+shift+d"], "command": "find_all_under" },
     { "keys": ["ctrl+enter"], "command": "replace_all", "args": {"close_panel": true},
