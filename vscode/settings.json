@@ -1,0 +1,18 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Minimal Fedu",
+    "files.autoSave": "onFocusChange",
+    "keyboard.dispatch": "keyCode",
+    "editor.cursorStyle": "block",
+    "editor.folding": false,
+    "editor.lineNumbers": "on",
+    "editor.minimap.renderCharacters": false,
+    "workbench.editor.showIcons": false,
+    "workbench.iconTheme": null,
+    "explorer.openEditors.visible": 0,
+    "workbench.statusBar.visible": false, // disable the StatusBar at the bottom
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false, // disable activitybar on left side
+}
