@@ -60,6 +60,7 @@
 		"node_modules",
 		"tmp/cache",
 		"data/polygones",
+		"logs",
 	],
 	"font_face": "Ubuntu Mono",
 	"font_size": 14,
