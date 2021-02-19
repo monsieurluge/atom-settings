@@ -308,7 +308,8 @@
         },
         {
             "name": "Markdown code delimiters",
-            "scope": "text.html.markdown meta.code-fence.definition",
+            "scope": "text.html.markdown meta.code-fence.definition, text.html.markdown punctuation.definition.raw",
+            "background": "var(background)",
             "foreground": "var(c4_base)"
         },
         {
