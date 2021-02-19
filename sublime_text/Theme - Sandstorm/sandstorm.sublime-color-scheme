@@ -294,6 +294,42 @@
             "name": "HTML tag punctuation",
             "scope": "punctuation.definition.tag",
             "foreground": "var(c3_base)"
-        }
+        },
+        // ------------------------------------------------------------ MARKDOWN
+        {
+            "name": "Markdown title",
+            "scope": "punctuation.definition.heading.begin.markdown",
+            "foreground": "var(c4_base)"
+        },
+        {
+            "name": "Markdown code",
+            "scope": "markup.raw.inline.markdown, markup.raw.code-fence",
+            "background": "var(c5_base)",
+        },
+        {
+            "name": "Markdown code delimiters",
+            "scope": "text.html.markdown meta.code-fence.definition",
+            "foreground": "var(c4_base)"
+        },
+        {
+            "name": "Markdown code language",
+            "scope": "text.html.markdown constant.other.language-name.markdown",
+            "foreground": "var(c4_base)"
+        },
+        {
+            "name": "Markdown list punctuation",
+            "scope": "punctuation.definition.list_item.markdown",
+            "foreground": "var(c2_base)"
+        },
+        {
+            "name": "Markdown link",
+            "scope": "meta.link.inline.markdown markup.underline.link.markdown",
+            "foreground": "var(c3_base)"
+        },
+        {
+            "name": "Markdown link punctuation",
+            "scope": "meta.link.inline.markdown punctuation.definition.metadata, text.html.markdown punctuation.definition.link",
+            "foreground": "var(c4_base)"
+        },
     ]
 }
