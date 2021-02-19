@@ -35,6 +35,7 @@
     { "keys": ["shift+f10"], "command": "move_to_neighboring_group" },
     { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
+    { "keys": ["ctrl+,"], "command": "focus_side_bar" },
 
     // find and replace
     { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
