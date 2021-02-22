@@ -182,6 +182,12 @@
             "scope": "constant.numeric.line-number.match.find-in-files",
             "foreground": "var(c3_base)"
         },
+        {
+            "name": "regexp",
+            "scope": "string.regexp, string.regexp.ts constant.other, string.regexp.ts keyword.operator, string.regexp.ts constant.character.escape, string.regexp.ts keyword.control",
+            "background": "var(c5_base)",
+            "foreground": "var(c3_base)"
+        },
         // ----------------------------------------------------------------- CSS
         {
             "name": "main selector",
