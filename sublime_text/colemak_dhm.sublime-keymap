@@ -1,5 +1,6 @@
 [
     // general
+    { "keys": ["ctrl+q"], "command": "pass" },
     { "keys": ["ctrl+shift+q"], "command": "exit" },
     { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
