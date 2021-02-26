@@ -338,5 +338,15 @@
             "scope": "meta.link.inline.markdown punctuation.definition.metadata, text.html.markdown punctuation.definition.link",
             "foreground": "var(c4_base)"
         },
+        {
+            "name": "Markdown emphasis",
+            "scope": "markup.italic.markdown, markup.bold.markdown",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markdown emphasis punctuation",
+            "scope": "markup.italic.markdown punctuation.definition, markup.bold.markdown punctuation.definition",
+            "foreground": "var(c4_base)"
+        },
     ]
 }
