@@ -36,13 +36,18 @@
         },
         {
             "class": "table_row",
-            "layer0.tint": "var(background)",
+            "layer0.tint": "var(c1_base)",
             "layer0.opacity": 0.0,
         },
         {
             "class": "table_row",
             "attributes": ["selected"],
-            "layer0.opacity": 1.0,
+            "layer0.opacity": 0.2,
+        },
+        {
+            "class": "table_row",
+            "attributes": ["hover"],
+            "layer0.opacity": 0.1,
         },
         {
             "class": "auto_complete_label",
