@@ -59,4 +59,10 @@
         "command": "double_click_at_caret",
         "context": [{ "key": "selector", "operator": "equal", "operand": "text.find-in-files", "match_all": true }],
     },
+    { "keys": ["ctrl+f1"], "command": "xdebug_session_start" },
+    { "keys": ["ctrl+f2"], "command": "xdebug_session_stop" },
+    { "keys": ["ctrl+f3"], "command": "xdebug_breakpoint" },
+    { "keys": ["ctrl+f5"], "command": "xdebug_run_to_line"},
+    { "keys": ["ctrl+f6"], "command": "xdebug_continue", "args": {"command": "step_over"}},
+    { "keys": ["ctrl+f7"], "command": "xdebug_continue", "args": {"command": "run"}},
 ]
