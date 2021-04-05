@@ -20,8 +20,10 @@
     { "keys": ["ctrl+e"], "command": "swap_line_down" },
     // { "keys": ["ctrl+n"], "command": "fold" },
     // { "keys": ["ctrl+o"], "command": "unfold" },
-    { "keys": ["ctrl+shift+e"], "command": "select_lines", "args": {"forward": true} },
-    { "keys": ["ctrl+shift+i"], "command": "select_lines", "args": {"forward": false} },
+    // { "keys": ["ctrl+shift+e"], "command": "select_lines", "args": {"forward": true} },
+    // { "keys": ["ctrl+shift+i"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
 
     // navigation
     { "keys": ["ctrl+escape"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
