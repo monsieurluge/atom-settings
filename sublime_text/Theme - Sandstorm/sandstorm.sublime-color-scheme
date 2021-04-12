@@ -312,6 +312,11 @@
             "scope": "source.ts support.type.primitive.ts, source.ts entity.name.type.ts",
             "foreground": "var(c3_base)"
         },
+        {
+            "name": "newables",
+            "scope": "source.ts new.expr.ts entity.name.function.ts, source.ts meta.objectliteral.ts variable",
+            "foreground": "var(c3_base)"
+        },
         // ------------------------------------------------------------ MARKDOWN
         {
             "name": "Markdown title",
