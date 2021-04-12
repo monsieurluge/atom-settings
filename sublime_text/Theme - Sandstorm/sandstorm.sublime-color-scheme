@@ -301,6 +301,17 @@
             "scope": "punctuation.definition.tag",
             "foreground": "var(c3_base)"
         },
+        // ---------------------------------------------------------- TypeScript
+        {
+            "name": "decorators",
+            "scope": "source.ts meta.decorator.ts, source.ts meta.decorator.ts variable, source.ts meta.decorator.ts string, source.ts meta.decorator.ts entity.name",
+            "foreground": "var(c4_base)"
+        },
+        {
+            "name": "types",
+            "scope": "source.ts support.type.primitive.ts, source.ts entity.name.type.ts",
+            "foreground": "var(c3_base)"
+        },
         // ------------------------------------------------------------ MARKDOWN
         {
             "name": "Markdown title",
