@@ -324,7 +324,7 @@
         },
         {
             "name": "scope modifiers",
-            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts storage.modifier.ts, source.ts meta.class.ts meta.method.declaration.ts storage.modifier.ts",
+            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts storage.modifier.ts, source.ts meta.class.ts meta.method.declaration.ts storage.modifier.ts, source.ts meta.class.ts storage.modifier.ts",
             "foreground": "var(c3_base)"
         },
         {
