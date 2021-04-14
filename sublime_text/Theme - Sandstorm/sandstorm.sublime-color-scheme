@@ -304,18 +304,45 @@
         // ---------------------------------------------------------- TypeScript
         {
             "name": "decorators",
-            "scope": "source.ts meta.decorator.ts, source.ts meta.decorator.ts variable, source.ts meta.decorator.ts string, source.ts meta.decorator.ts entity.name",
-            "foreground": "var(c4_base)"
-        },
-        {
-            "name": "types",
-            "scope": "source.ts support.type.primitive.ts, source.ts entity.name.type.ts",
+            "scope": "source.ts meta.decorator.ts meta.function-call.ts entity.name.function.ts",
             "foreground": "var(c3_base)"
         },
         {
-            "name": "newables",
-            "scope": "source.ts new.expr.ts entity.name.function.ts, source.ts meta.objectliteral.ts variable",
+            "name": "const keyword",
+            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts ",
             "foreground": "var(c3_base)"
+        },
+        {
+            "name": "class keyword",
+            "scope": "source.ts meta.class.ts storage.type.class.ts",
+            "foreground": "var(c3_base)"
+        },
+        {
+            "name": "class keywords",
+            "scope": "source.ts meta.class.ts storage.modifier.ts, source.ts meta.class.ts meta.method.declaration.ts storage.type.ts",
+            "foreground": "var(c2_base)"
+        },
+        {
+            "name": "scope modifiers",
+            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts storage.modifier.ts, source.ts meta.class.ts meta.method.declaration.ts storage.modifier.ts",
+            "foreground": "var(c3_base)"
+        },
+        {
+            "name": "inherited classes",
+            "scope": "source.ts meta.class.ts entity.other.inherited-class.ts ",
+            "foreground": "var(c1_base)"
+        },
+        {
+            "name": "special functions",
+            "scope": "source.ts meta.decorator.ts meta.objectliteral.ts meta.object.member.ts meta.array.literal.ts meta.function-call.ts entity.name.function.ts",
+            "foreground": "var(c1_base)"
+        },
+        {
+            "name": "console.log sentence",
+            "scope": "source.ts support.class.console.ts, source.ts support.function.console.ts",
+            "foreground": "var(c1_base)",
+            "background": "var(c6_base)",
+            "selection_foreground": "var(c6_base)",
         },
         // ------------------------------------------------------------ MARKDOWN
         {
