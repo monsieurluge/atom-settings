@@ -328,6 +328,11 @@
             "foreground": "var(c3_base)"
         },
         {
+            "name": "types",
+            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts support.type.primitive.ts,",
+            "foreground": "color(var(c3_base) alpha(0.6))"
+        },
+        {
             "name": "inherited classes",
             "scope": "source.ts meta.class.ts entity.other.inherited-class.ts ",
             "foreground": "var(c1_base)"
