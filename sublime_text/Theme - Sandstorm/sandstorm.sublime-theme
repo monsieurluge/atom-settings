@@ -512,7 +512,7 @@
             "layer0.tint": "var(c4_base)",
             "layer0.opacity": 1.0,
             "layer1.texture": "Theme - Sandstorm/assets/unfolded.png",
-            "layer1.tint": "var(c2_base)",
+            "layer1.tint": "var(c4_base)",
             "layer1.opacity": 0.0,
         },
         {
@@ -524,7 +524,7 @@
         {
             "class": "disclosure_button_control",
             "parents": [{"class": "sidebar_tree", "attributes": ["hover"]}],
-            "layer0.tint": "var(c1_base)",
+            "layer1.tint": "var(c1_base)",
         },
         // folder
         {
