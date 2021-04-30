@@ -303,44 +303,49 @@
         },
         // ---------------------------------------------------------- TypeScript
         {
-            "name": "decorators",
-            "scope": "source.ts meta.decorator.ts meta.function-call.ts entity.name.function.ts",
-            "foreground": "var(c3_base)"
+            "name": "block curly brackets",
+            "scope": "source.ts meta.class punctuation.definition.block, source.ts meta.function punctuation.definition.block, source.ts meta.arrow meta.block punctuation.definition.block",
+            "foreground": "var(c2_base)",
         },
         {
-            "name": "const keyword",
-            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.block.ts meta.var.expr.ts storage.type.ts ",
-            "foreground": "var(c3_base)"
+            "name": "objects curly brackets",
+            "scope": "source.ts meta.objectliteral punctuation.definition.block, source.ts meta.function meta.block meta.objectliteral punctuation.definition.block, source.ts meta.object.type punctuation.definition.block",
+            "foreground": "var(c1_base)",
+        },
+        {
+            "name": "async keyword",
+            "scope": "source.ts storage.modifier.async",
+            "foreground": "var(c2_base)",
+        },
+        {
+            "name": "imports structure",
+            "scope": "source.ts meta.import, source.ts meta.import keyword.control",
+            "foreground": "var(c2_base)",
+        },
+        {
+            "name": "imported objects / functions",
+            "scope": "source.ts meta.import variable.other.readwrite.alias, source.ts meta.import constant.language.import-export-all, source.ts meta.import variable.other.readwrite.alias",
+            "foreground": "color(var(c3_base) alpha(0.6))",
+        },
+        {
+            "name": "types",
+            "scope": "source.ts entity.name.type.ts, source.ts support.type.primitive.ts",
+            "foreground": "color(var(c3_base) alpha(0.6))"
         },
         {
             "name": "class keyword",
             "scope": "source.ts meta.class.ts storage.type.class.ts",
-            "foreground": "var(c3_base)"
+            "foreground": "var(c3_base)",
         },
         {
-            "name": "class keywords",
-            "scope": "source.ts meta.class.ts storage.modifier.ts, source.ts meta.class.ts meta.method.declaration.ts storage.type.ts",
-            "foreground": "var(c2_base)"
+            "name": "new keyword",
+            "scope": "source.ts meta.function.ts meta.block.ts meta.block.ts new.expr.ts keyword.operator.new.ts",
+            "foreground": "var(c2_base)",
         },
         {
-            "name": "scope modifiers",
-            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts storage.modifier.ts, source.ts meta.class.ts meta.method.declaration.ts storage.modifier.ts, source.ts meta.class.ts storage.modifier.ts",
-            "foreground": "var(c3_base)"
-        },
-        {
-            "name": "types",
-            "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts support.type.primitive.ts,",
-            "foreground": "color(var(c3_base) alpha(0.6))"
-        },
-        {
-            "name": "inherited classes",
-            "scope": "source.ts meta.class.ts entity.other.inherited-class.ts ",
-            "foreground": "var(c1_base)"
-        },
-        {
-            "name": "special functions",
-            "scope": "source.ts meta.decorator.ts meta.objectliteral.ts meta.object.member.ts meta.array.literal.ts meta.function-call.ts entity.name.function.ts",
-            "foreground": "var(c1_base)"
+            "name": "as keyword",
+            "scope": "source.ts keyword.control.as",
+            "foreground": "var(c1_base)",
         },
         {
             "name": "console.log sentence",
