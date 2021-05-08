@@ -9,3 +9,4 @@ Here are the plugins I use, syntax highlighting expected:
  - Quick File Move
  - ScopeHunter
  - VAlign
+ - Edit Command Palette
