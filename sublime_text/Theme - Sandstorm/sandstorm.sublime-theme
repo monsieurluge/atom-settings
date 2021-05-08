@@ -12,6 +12,8 @@
         "c6_base": "#9e1030",       // invalid _ jester red
         "c7_base": "black",         // unused
         "c8_base": "black",         // unused
+        // fonts
+        "base_font_size": 10,
     },
     "rules":
     [
@@ -19,12 +21,12 @@
         {
             "class": "label_control",
             "color": "var(c1_base)",
-            "font.size": 12,
+            "font.size": "var(base_font_size)",
         },
         {
             "class": "title_label_control",
             "color": "var(c2_base)",
-            "font.size": 12,
+            "font.size": "var(base_font_size)",
             "bold": true
         },
         // -------------------------------------------------------- AUTOCOMPLETE
@@ -404,7 +406,7 @@
         {
             "class": "tab_label",
             "fg": "var(c4_base)",
-            "font.size": 12,
+            "font.size": "var(base_font)",
         },
         // label - selected
         {
@@ -487,7 +489,7 @@
         {
             "class": "sidebar_label",
             "color": "color(var(c1_base) blend(var(background) 40%))",
-            "font.size": 12,
+            "font.size": "var(base_font)",
         },
         {
             "class": "sidebar_label",
