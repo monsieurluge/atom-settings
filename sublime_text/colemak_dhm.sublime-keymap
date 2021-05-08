@@ -8,6 +8,8 @@
     { "keys": ["ctrl+h"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     { "keys": ["ctrl+shift+o"], "command": "prompt_open_folder" },
     { "keys": ["ctrl+shift+p"], "command": "prompt_select_workspace" },
+    { "keys": ["ctrl+tab"], "command": "change_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "change_view", "args": {"reverse": true} },
     { "keys": ["f11"], "command": "toggle_distraction_free" },
     { "keys": ["f7"], "command": "toggle_setting", "args": {"setting": "gutter"} },
     { "keys": ["f1"], "command": "new_snippet" },
@@ -26,8 +28,8 @@
     { "keys": ["ctrl+shift+b"], "command": "duplicate_line" },
     { "keys": ["ctrl+i"], "command": "swap_line_up" },
     { "keys": ["ctrl+e"], "command": "swap_line_down" },
-    { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
-    { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+shift+e"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+shift+i"], "command": "select_lines", "args": {"forward": false} },
 
     // navigation
     { "keys": ["ctrl+escape"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
