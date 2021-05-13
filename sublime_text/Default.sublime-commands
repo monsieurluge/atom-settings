@@ -7,10 +7,19 @@
     {
         "caption": "Snippet: new snippet",
         "command": "new_snippet",
-        // "args": {"key": "value"}
     },
     {
         "caption": "Project: open project",
         "command": "prompt_open_project_or_workspace",
-    }
+    },
+    {
+        "caption": "Indentation: tab width 2",
+        "command": "set_setting",
+        "args": {"setting": "tab_size", "value": 2},
+    },
+    {
+        "caption": "Indentation: tab width 4",
+        "command": "set_setting",
+        "args": {"setting": "tab_size", "value": 4},
+    },
 ]
