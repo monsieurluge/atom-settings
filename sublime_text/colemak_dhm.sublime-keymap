@@ -40,7 +40,7 @@
     { "keys": ["shift+f9"], "command": "move_to_neighboring_group", "args": {"forward": false} },
     { "keys": ["f10"], "command": "focus_neighboring_group" },
     { "keys": ["shift+f10"], "command": "move_to_neighboring_group" },
-    { "keys": ["ctrl+,"], "command": "focus_side_bar" },
+    { "keys": ["ctrl+;"], "command": "focus_side_bar" },
 
     // find and replace
     { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
