@@ -60,6 +60,7 @@
 		"build",
 		"cache",
 		"coverage",
+		"dist",
 		"node_modules",
 		"tmp/cache",
 		"data/polygones",
