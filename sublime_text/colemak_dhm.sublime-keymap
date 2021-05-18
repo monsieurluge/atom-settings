@@ -41,6 +41,8 @@
     { "keys": ["f10"], "command": "focus_neighboring_group" },
     { "keys": ["shift+f10"], "command": "move_to_neighboring_group" },
     { "keys": ["ctrl+;"], "command": "focus_side_bar" },
+    { "keys": ["ctrl+tab"], "command": "change_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "change_view", "args": {"reverse": true} },
 
     // find and replace
     { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
