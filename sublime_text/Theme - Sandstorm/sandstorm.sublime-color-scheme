@@ -361,6 +361,12 @@
             "foreground": "var(c4_base)"
         },
         {
+            "name": "Headers level 2",
+            "scope": "text.html.markdown markup.heading.2.markdown, text.html.markdown markup.heading.2.markdown entity.name.section.markdown",
+            "background": "var(c2_base)",
+            "foreground": "var(background)"
+        },
+        {
             "name": "Markdown code",
             "scope": "markup.raw.inline.markdown, markup.raw.code-fence",
             "background": "var(c5_base)",
