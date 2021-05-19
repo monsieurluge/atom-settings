@@ -1,0 +1,14 @@
+// SublimeLinter Settings - User
+{
+    "paths": {
+        "linux": [
+            "/home/laurent/.nvm/versions/node/v14.16.1/bin",
+        ],
+    },
+    "linters": {
+        "tslint": {
+            "env": {"PATH":"/home/laurent/.nvm/versions/node/v14.16.1/bin"}
+        },
+    },
+    "statusbar.show_active_linters": false,
+}
