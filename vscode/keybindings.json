@@ -137,10 +137,6 @@
         "command": "-workbench.action.toggleZenMode"
     },
     {
-        "key": "escape escape",
-        "command": "workbench.view.explorer"
-    },
-    {
         "key": "ctrl+shift+o",
         "command": "workbench.action.files.openFolder"
     },
