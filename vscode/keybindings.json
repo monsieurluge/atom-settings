@@ -167,5 +167,21 @@
     {
         "key": "ctrl+shift+p",
         "command": "workbench.action.openWorkspace"
+    },
+    {
+        "key": "f8",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "f10",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "f9",
+        "command": "workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "shift+f8",
+        "command": "workbench.action.joinTwoGroups"
     }
 ]
