@@ -52,7 +52,8 @@
 		"*.psd",
 		"*.db",
 		"*.sublime-workspace",
-		"*.min.js"
+		"*.min.js",
+		"dist/*.js",
 	],
 	"folder_exclude_patterns":
 	[
@@ -60,7 +61,6 @@
 		"build",
 		"cache",
 		"coverage",
-		"dist",
 		"node_modules",
 		"tmp/cache",
 		"data/polygones",
