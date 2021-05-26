@@ -350,6 +350,16 @@
             "foreground": "var(c1_base)",
         },
         {
+            "name": "decorator annotations",
+            "scope": "source.ts meta.annotation.js meta.function-call.js variable.function.js",
+            "foreground": "var(c4_base)",
+        },
+        {
+            "name": "fix decorator styling",
+            "scope": "source.ts meta.export.js meta.class.js meta.block.js meta.annotation.js meta.function-call.js meta.group.js meta.string.js meta.interpolation.js source.js.embedded meta.function-call.method.js variable.function.js",
+            "foreground": "var(c1_base)",
+        },
+        {
             "name": "avoid those!",
             "scope": "source.ts meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js meta.try.js meta.block.js meta.type.js meta.generic.js support.type.any.js, source.ts support.type.object.console.js",
             "foreground": "var(c1_base)",
