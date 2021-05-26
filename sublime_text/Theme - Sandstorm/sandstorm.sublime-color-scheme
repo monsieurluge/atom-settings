@@ -34,7 +34,7 @@
         "tags_foreground": "var(c2_base)",
         "gutter": "var(background)",
         "gutter_foreground": "var(c1_faded)",
-        "gutter_foreground_highlight": "var(c2_base)",
+        "gutter_foreground_highlight": "var(c3_base)",
         "selection": "var(c2_base)",
         "selection_foreground": "var(background)",
         "selection_border": "var(c2_base)",
