@@ -345,8 +345,8 @@
             "foreground": "var(c1_base)",
         },
         {
-            "name": "built-in objects",
-            "scope": "source.ts meta.function-call.method.js support.class.builtin.js, source.ts meta.function-call.method.js support.class.node.js",
+            "name": "objects calls",
+            "scope": "source.ts meta.function-call.method.js support.class.builtin.js, source.ts meta.function-call.method.js support.class.node.js, source.ts meta.function-call.method.js support.class.js, source.ts meta.annotation.js meta.function-call.js support.class.js",
             "foreground": "var(c1_base)",
         },
         {
