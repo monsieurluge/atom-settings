@@ -6,7 +6,8 @@
         "c1_base": "#e5ccaf",       // code _ gray sand
         "c2_base": "#fc9e21",       // keywords _ radiant yellow
         "c3_base": "#bd8b69",       // types, scope modifiers _ sandstorm
-        "c4_base": "#685e4f",       // comments, gutter _ stone gray
+        "c4_base": "#947764",       // comments, gutter _ woodsmoke
+        "c1_faded": "color(var(c1_base) alpha(0.2))",
         // background variables
         "c5_base": "#44413c",       // line highlight _ black ink
         "c6_base": "#9e1030",       // invalid _ jester red
@@ -32,7 +33,8 @@
         "tags_options": "underline",
         "tags_foreground": "var(c2_base)",
         "gutter": "var(background)",
-        "gutter_foreground": "var(c4_base)",
+        "gutter_foreground": "var(c1_faded)",
+        "gutter_foreground_highlight": "var(c3_base)",
         "selection": "var(c2_base)",
         "selection_foreground": "var(background)",
         "selection_border": "var(c2_base)",
@@ -57,7 +59,7 @@
         {
             "name": "comment",
             "scope": "comment, punctuation.definition.comment",
-            "foreground": "var(c4_base)",
+            "foreground": "var(c1_faded)",
             "selection_foreground": "color(var(background) blend(var(c2_base) 50%))",
         },
         {
@@ -175,7 +177,7 @@
         {
             "name": "find results line number",
             "scope": "constant.numeric.line-number.find-in-files",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_faded)"
         },
         {
             "name": "find results matching line number",
@@ -247,7 +249,7 @@
         {
             "name": "docblock",
             "scope": "keyword.other.phpdoc",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_faded)"
         },
         {
             "name": "namespace",
@@ -268,7 +270,7 @@
         {
             "name": "line information",
             "scope": "meta.diff.range.unified, entity.name.section.diff",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_faded)"
         },
         {
             "name": "insertion",
@@ -303,53 +305,63 @@
         },
         // ---------------------------------------------------------- TypeScript
         {
-            "name": "block curly brackets",
-            "scope": "source.ts meta.class punctuation.definition.block, source.ts meta.function punctuation.definition.block, source.ts meta.arrow meta.block punctuation.definition.block",
-            "foreground": "var(c2_base)",
-        },
-        {
-            "name": "objects curly brackets",
-            "scope": "source.ts meta.objectliteral punctuation.definition.block, source.ts meta.function meta.block meta.objectliteral punctuation.definition.block, source.ts meta.object.type punctuation.definition.block",
-            "foreground": "var(c1_base)",
-        },
-        {
-            "name": "async keyword",
-            "scope": "source.ts storage.modifier.async",
-            "foreground": "var(c2_base)",
-        },
-        {
             "name": "imports structure",
-            "scope": "source.ts meta.import, source.ts meta.import keyword.control",
+            "scope": "source.ts meta.import.js keyword.control.import-export.js",
             "foreground": "var(c2_base)",
         },
         {
-            "name": "imported objects / functions",
-            "scope": "source.ts meta.import variable.other.readwrite.alias, source.ts meta.import constant.language.import-export-all, source.ts meta.import variable.other.readwrite.alias",
-            "foreground": "color(var(c3_base) alpha(0.6))",
-        },
-        {
-            "name": "types",
-            "scope": "source.ts entity.name.type.ts, source.ts support.type.primitive.ts",
-            "foreground": "color(var(c3_base) alpha(0.6))"
+            "name": "imported things",
+            "scope": "source.ts meta.import.js variable.other, source.ts meta.export.js meta.type.js support.class.js, source.ts meta.export.js support.class.builtin.js, source.ts meta.export.js support.type.primitive",
+            "foreground": "var(c4_base)",
         },
         {
             "name": "class keyword",
-            "scope": "source.ts meta.class.ts storage.type.class.ts",
+            "scope": "source.ts meta.export.js keyword.declaration.class.js",
             "foreground": "var(c3_base)",
         },
         {
-            "name": "new keyword",
-            "scope": "source.ts meta.function.ts meta.block.ts meta.block.ts new.expr.ts keyword.operator.new.ts",
-            "foreground": "var(c2_base)",
-        },
-        {
-            "name": "as keyword",
-            "scope": "source.ts keyword.control.as",
+            "name": "class name / implementation",
+            "scope": "source.ts meta.export.js entity.name.class.js, source.ts meta.export.js entity.other.inherited-class.js",
             "foreground": "var(c1_base)",
         },
         {
-            "name": "console.log sentence",
-            "scope": "source.ts support.class.console.ts, source.ts support.function.console.ts",
+            "name": "export keyword",
+            "scope": "source.ts meta.export.js keyword.control.import-export.js",
+            "foreground": "var(c2_base)",
+        },
+        {
+            "name": "misc scope modifiers",
+            "scope": "source.ts meta.export.js keyword.declaration.js",
+            "foreground": "var(c3_base)",
+        },
+        {
+            "name": "misc punctuation",
+            "scope": "source.ts meta.function.parameters.js punctuation.section.block, source.ts meta.mapping.js punctuation.section.block, source.ts meta.binding.destructuring.mapping.js punctuation.section.block, source.ts keyword.declaration.function.arrow.js, source.ts storage.modifier.optional.js",
+            "foreground": "var(c1_base)",
+        },
+        {
+            "name": "throw keyword",
+            "scope": "source.ts keyword.control.flow.throw.js",
+            "foreground": "var(c1_base)",
+        },
+        {
+            "name": "objects calls",
+            "scope": "source.ts meta.function-call.method.js support.class.builtin.js, source.ts meta.function-call.method.js support.class.node.js, source.ts meta.function-call.method.js support.class.js, source.ts meta.annotation.js meta.function-call.js support.class.js",
+            "foreground": "var(c1_base)",
+        },
+        {
+            "name": "decorator annotations",
+            "scope": "source.ts meta.annotation.js meta.function-call.js variable.function.js",
+            "foreground": "var(c4_base)",
+        },
+        {
+            "name": "fix decorator styling",
+            "scope": "source.ts meta.export.js meta.class.js meta.block.js meta.annotation.js meta.function-call.js meta.group.js meta.string.js meta.interpolation.js source.js.embedded meta.function-call.method.js variable.function.js",
+            "foreground": "var(c1_base)",
+        },
+        {
+            "name": "avoid those!",
+            "scope": "source.ts meta.export.js meta.class.js meta.block.js meta.function.js meta.block.js meta.try.js meta.block.js meta.type.js meta.generic.js support.type.any.js, source.ts support.type.object.console.js",
             "foreground": "var(c1_base)",
             "background": "var(c6_base)",
             "selection_foreground": "var(c6_base)",
@@ -358,7 +370,7 @@
         {
             "name": "Markdown title",
             "scope": "punctuation.definition.heading.begin.markdown",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_faded)"
         },
         {
             "name": "Headers level 2",
@@ -375,12 +387,12 @@
             "name": "Markdown code delimiters",
             "scope": "text.html.markdown meta.code-fence.definition, text.html.markdown punctuation.definition.raw",
             "background": "var(background)",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_faded)"
         },
         {
             "name": "Markdown code language",
             "scope": "text.html.markdown constant.other.language-name.markdown",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_faded)"
         },
         {
             "name": "Markdown list punctuation",
@@ -395,7 +407,7 @@
         {
             "name": "Markdown link punctuation",
             "scope": "meta.link.inline.markdown punctuation.definition.metadata, text.html.markdown punctuation.definition.link",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_faded)"
         },
         {
             "name": "Markdown emphasis",
@@ -405,7 +417,7 @@
         {
             "name": "Markdown emphasis punctuation",
             "scope": "markup.italic.markdown punctuation.definition, markup.bold.markdown punctuation.definition",
-            "foreground": "var(c4_base)"
+            "foreground": "var(c1_faded)"
         },
     ]
 }

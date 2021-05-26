@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"debug": false,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"DocBlockr",
+		"Dockerfile Syntax Highlighting",
+		"Edit Command Palette",
+		"Git",
+		"ImportHelper",
+		"Node Completions",
+		"Open in Default Application",
+		"Package Control",
+		"Pretty JSON",
+		"Quick File Move",
+		"ScopeHunter",
+		"SublimeLinter",
+		"SublimeLinter-tslint",
+		"TypeScript",
+		"TypeScript Syntax",
+		"VAlign",
+		"Vue Syntax Highlight",
+		"Vuejs Snippets"
+	]
+}
