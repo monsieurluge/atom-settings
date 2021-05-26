@@ -17,6 +17,11 @@
     },
     "rules":
     [
+        {
+            "class": "title_bar",
+            "fg": "var(c1_base)",
+            "bg": "var(c5_base)",
+        },
         // -------------------------------------------------------------- LABELS
         {
             "class": "label_control",
@@ -406,7 +411,7 @@
         {
             "class": "tab_label",
             "fg": "var(c4_base)",
-            "font.size": "var(base_font)",
+            "font.size": "var(base_font_size)",
         },
         // label - selected
         {
@@ -489,7 +494,7 @@
         {
             "class": "sidebar_label",
             "color": "color(var(c1_base) blend(var(background) 40%))",
-            "font.size": "var(base_font)",
+            "font.size": "var(base_font_size)",
         },
         {
             "class": "sidebar_label",

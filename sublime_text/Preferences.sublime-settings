@@ -1,6 +1,7 @@
 {
 	"always_show_minimap_viewport": false,
 	"auto_complete_commit_on_tab": true,
+	"show_sidebar_button": false,
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -29,6 +30,7 @@
 	"drag_text": false,
 	"draw_indent_guides": false,
 	"draw_shadows": false,
+	"enable_inline_error_tips": true,
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -72,10 +74,12 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"line_numbers": true,
 	"menu_hide": true,
+	"mini_diff": false,
+	"node_path": "/home/laurent/.nvm/versions/node/v14.16.1/bin/node",
 	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
@@ -89,5 +93,5 @@
 	"theme": "sandstorm.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+	"word_wrap": "true",
 }
