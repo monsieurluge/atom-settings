@@ -353,6 +353,15 @@
             "selected_fg": "var(c3_base)",
             "selected_match_fg": "var(c2_base)"
         },
+        {
+            "class": "quick_panel_detail_label",
+            "link_color": "var(c4_base)",
+        },
+        {
+            "class": "quick_panel_detail_label",
+            "parents": [{"class": "quick_panel_row","attributes": ["selected"]}],
+            "link_color": "var(c3_base)",
+        },
         // ---------------------------------------------------------- STATUS BAR
         {
             "class": "status_bar",
