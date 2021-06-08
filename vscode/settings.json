@@ -2,6 +2,8 @@
     "workbench.startupEditor": "newUntitledFile",
     "files.autoSave": "onFocusChange",
     "editor.fontSize": 16,
+    "editor.glyphMargin": false,
+    "scm.diffDecorationsGutterVisibility": "hover",
     "editor.cursorStyle": "block",
     "workbench.colorTheme": "Minimal Fedu",
     "window.customMenuBarAltFocus": false,
@@ -17,31 +19,40 @@
     "editor.highlightActiveIndentGuide": false,
     "scm.countBadge": "off",
     "workbench.editor.decorations.badges": false,
+    "workbench.editor.decorations.colors": false,
     "extensions.ignoreRecommendations": true,
     "editor.colorDecorators": false,
     "editor.acceptSuggestionOnEnter": "off",
     "editor.quickSuggestions": {
-        "other": false,
+        // "other": false,
         "comments": false,
         "strings": false
     },
-    "editor.parameterHints": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.horizontalScrollbarSize": 0,
+    "editor.inlineHints.enabled": false,
     "editor.lineNumbers": "off",
     "editor.minimap.renderCharacters": false,
     "workbench.editor.showIcons": false,
     "explorer.openEditors.visible": 0,
     "workbench.activityBar.visible": false,
-    "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.vertical": "hidden",
-    "editor.minimap.enabled": false,
     "editor.hideCursorInOverviewRuler": true,
     "search.quickOpen.includeHistory": false,
     "workbench.commandPalette.history": 0,
     "editor.wrappingIndent": "indent",
+    "git.decorations.enabled": false,
     "workbench.colorCustomizations": {
+        // "editor.findMatchBackground": "#ffc75f50",
+        // "editor.findMatchHighlightBackground": "#ffc75f50",
+        "tab.hoverForeground": "#f0f0f0",
+        "editorSuggestWidget.selectedBackground": "#ffffff20",
+        "quickInput.background": "#293134",
         "sideBar.background": "#293134",
         "tab.activeForeground": "#f5883b",
         "tab.unfocusedActiveForeground": "#f0f0f0",
+        "list.focusBackground": "#ffffff20",
         "list.activeSelectionBackground": "#293134",
         "list.activeSelectionForeground": "#f5883b",
         "list.inactiveSelectionBackground": "#293134",
@@ -50,9 +61,27 @@
         "sideBarSectionHeader.foreground": "#ffffff20",
         "list.hoverBackground": "#1f252760",
         "editorWhitespace.foreground": "#ffffff20",
+        "editorUnnecessaryCode.border": "#ff0000",
+        "editorUnnecessaryCode.opacity": "#00000080",
         "statusBar.background": "#1f2527",
         "editorCursor.background": "#1f2527",
-        "editorCursor.foreground": "#ffffff"
+        "editorCursor.foreground": "#ffffff",
+        "sideBar.border": "#1f2527",
+        "editorGroup.border": "#1f2527",
     },
-    "editor.tokenColorCustomizations": {}
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "source.ts tooooto",
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "explorer.compactFolders": false,
+    "zenMode.hideTabs": false,
+    "editor.dragAndDrop": false,
+    "editor.minimap.enabled": false
 }
