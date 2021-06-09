@@ -243,5 +243,9 @@
     {
         "key": "ctrl+shift+m",
         "command": "editor.action.selectToBracket"
+    },
+    {
+        "key": "ctrl+k ctrl+tab",
+        "command": "workbench.action.nextSideBarView"
     }
 ]
