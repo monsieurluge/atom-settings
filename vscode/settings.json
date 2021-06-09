@@ -88,7 +88,7 @@
         "list.inactiveSelectionForeground": "#f5883b",
         "list.hoverBackground": "#1f252760",
         "editorBracketMatch.background": "#3b3a36",
-        "editorBracketMatch.border": "#fc9e21",
+        "editorBracketMatch.border": "#ffffff",
         "editorWhitespace.foreground": "#3b3a3640",
         "editorUnnecessaryCode.border": "#ff0000",
         "editorUnnecessaryCode.opacity": "#00000080",
@@ -99,12 +99,13 @@
         "editor.lineHighlightBackground": "#44413c",
         "editor.lineHighlightBorder": "#44413c",
         "editor.background": "#3b3a36",
-        "foreground": "#e5ccaf"
+        "editor.foreground": "#e5ccaf",
+        "foreground": "#e5ccaf",
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
-                "name": "",
+                "name": "block punctuation",
                 "scope": "punctuation.definition.block",
                 "settings": {
                     "foreground": "#fc9e21",
@@ -112,16 +113,16 @@
             },
             {
                 "name": "Comments",
-                "scope": ["comment", "comment punctuation"],
+                "scope": [
+                    "comment",
+                    "comment.block.preprocessor",
+                    "comment punctuation",
+                    "punctuation.definition.block.tag.jsdoc",
+                    "storage.type.class.jsdoc",
+                    "entity.name.type.instance.jsdoc",
+                    "variable.other.jsdoc"
+                ],
                 "settings": {
-                    "foreground": "#e5ccaf40"
-                }
-            },
-            {
-                "name": "Comments: Preprocessor",
-                "scope": "comment.block.preprocessor",
-                "settings": {
-                    "fontStyle": "",
                     "foreground": "#e5ccaf40"
                 }
             },
@@ -137,7 +138,8 @@
                 "scope": [
                     "string",
                     "meta.property-value.string",
-                    "support.constant.property-value.string"
+                    "support.constant.property-value.string",
+                    "constant.character.escape"
                 ],
                 "settings": {
                     "foreground": "#e5ccaf"
@@ -179,6 +181,13 @@
                 ],
                 "settings": {
                     "foreground": "#fc9e21"
+                }
+            },
+            {
+                "name": "misc block keywords",
+                "scope": ["storage.modifier.async"],
+                "settings": {
+                    "foreground": "#fc9e21",
                 }
             },
             {
@@ -349,7 +358,6 @@
                     "entity.name.tag.table"
                 ],
                 "settings": {
-                    "fontStyle": "normal",
                     "foreground": "#e5ccaf"
                 }
             },
@@ -517,13 +525,6 @@
                     "foreground": "#e5ccaf",
                 },
             },
-            {
-                "name": "typescript foreground",
-                "scope": "source.ts",
-                "settings": {
-                    "foreground": "#e5ccaf",
-                },
-            }
         ]
     },
     "zenMode.hideTabs": false,
