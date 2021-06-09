@@ -239,5 +239,9 @@
     {
         "key": "ctrl+shift+o",
         "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "editor.action.selectToBracket"
     }
 ]
