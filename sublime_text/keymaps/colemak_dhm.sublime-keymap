@@ -20,6 +20,7 @@
             { "key": "setting.tab_completion", "operator": "equal", "operand": true }
         ]
     },
+    { "keys": ["ctrl+k", "ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 
     // editing
     { "keys": ["ctrl+b"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },

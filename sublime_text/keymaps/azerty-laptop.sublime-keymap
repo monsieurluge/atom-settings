@@ -19,6 +19,7 @@
             { "key": "setting.tab_completion", "operator": "equal", "operand": true }
         ]
     },
+    { "keys": ["ctrl+k", "ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 
     // editing
     { "keys": ["ctrl+e"], "command": "toggle_comment", "args": { "block": false } },
