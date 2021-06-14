@@ -525,6 +525,16 @@
                     "foreground": "#e5ccaf",
                 },
             },
+            {
+                "name": "typescript types",
+                "scope": [
+                    "entity.name.type.ts",
+                    "support.type.primitive.ts",
+                ],
+                "settings": {
+                    "foreground": "#bd8b6980",
+                }
+            },
         ]
     },
     "zenMode.hideTabs": false,
