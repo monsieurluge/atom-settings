@@ -69,7 +69,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+h",
+        "key": "ctrl+shift+h",
         "command": "workbench.action.showAllSymbols"
     },
     {
