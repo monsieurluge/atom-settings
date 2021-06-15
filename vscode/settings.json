@@ -50,6 +50,7 @@
     "window.customMenuBarAltFocus": false,
     "workbench.activityBar.visible": false,
     "workbench.commandPalette.history": 0,
+    "editor.links": false,
     "editor.occurrencesHighlight": false,
     "editor.renderIndentGuides": false,
     "editor.selectionHighlight": true,
@@ -59,7 +60,7 @@
     "workbench.editor.showIcons": false,
     "workbench.editor.tabCloseButton": "off",
     "workbench.iconTheme": null,
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "none",
@@ -93,11 +94,13 @@
         "list.inactiveSelectionForeground": "#f5883b",
         "list.hoverBackground": "#1f252760",
         "list.focusOutline": "#ffffff00",
+        "list.inactiveFocusOutline": "#ffffff00",
         "editorBracketMatch.background": "#3b3a36",
         "editorBracketMatch.border": "#ffffff",
         "editorWhitespace.foreground": "#3b3a3640",
         "editorUnnecessaryCode.border": "#ff0000",
         "editorUnnecessaryCode.opacity": "#00000080",
+        "focusBorder": "#ffffff00",
         "statusBar.background": "#44413c",
         "statusBar.foreground": "#e5ccaf60",
         "editorCursor.background": "#1f2527",
@@ -224,7 +227,7 @@
                 "settings": {
                     "foreground": "#e5ccaf",
                 }
-            }
+            },
             {
                 "name": "scope modifier",
                 "scope": [
