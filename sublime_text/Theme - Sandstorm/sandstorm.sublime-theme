@@ -152,6 +152,17 @@
             "layer0.tint": "var(c2_base)",
         },
         {
+            "class": "icon_use_gitignore",
+            "content_margin": 10,
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 1.0
+        },
+        {
+            "class": "icon_use_gitignore",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.tint": "var(c2_base)",
+        },
+        {
             "class": "icon_reverse",
             "content_margin": 10,
             "layer0.texture": "Theme - Sandstorm/assets/TEMP_ICON.png",
