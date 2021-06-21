@@ -1,4 +1,9 @@
 {
+    "files.associations": {
+        "*.env": "shellscript",
+        "*.env.*": "shellscript",
+    },
+    "debug.javascript.codelens.npmScripts": "never",
     "breadcrumbs.symbolPath": "off",
     "editor.acceptSuggestionOnEnter": "off",
     "editor.colorDecorators": false,
@@ -30,9 +35,9 @@
     "explorer.openEditors.visible": 0,
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "onFocusChange",
-    "git.decorations.enabled": false,
     "scm.countBadge": "off",
     "scm.diffDecorationsGutterVisibility": "hover",
+    "search.searchOnType": false,
     "files.exclude": {
         "**/.git": true,
         "**/.DS_Store": true,
@@ -63,13 +68,15 @@
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": false,
     "workbench.tree.indent": 16,
-    "workbench.tree.renderIndentGuides": "none",
+    "window.title": "${rootName}",
+    "workbench.tree.renderIndentGuides": "none", 
     "workbench.colorCustomizations": {
         "editor.findMatchBackground": "#fc9e2150",
         "editor.findMatchHighlightBackground": "#e5ccaf30",
         "editor.selectionHighlightBackground": "#ff000000",
         "editor.selectionHighlightBorder": "#fc9e21",
         "editorWarning.foreground": "#c84c61",
+        "sideBarTitle.foreground": "#ffffff00",
         "sideBar.background": "#3b3a36",
         "sideBar.foreground": "#e5ccaf60",
         "sideBarSectionHeader.background": "#44413c",
@@ -223,6 +230,8 @@
                     "keyword.other",
                     "keyword.operator.new",
                     "keyword.operator.expression.typeof",
+                    "keyword.operator.expression.import",
+                    "keyword.operator.sizeof",
                 ],
                 "settings": {
                     "foreground": "#e5ccaf",
@@ -255,6 +264,7 @@
                     "punctuation.definition.template-expression.begin",
                     "punctuation.definition.template-expression.end",
                     "punctuation.separator",
+                    "punctuation.section.arguments",
                 ],
                 "settings": {
                     "foreground": "#e5ccaf",
@@ -282,6 +292,8 @@
                     "entity.name.type.enum",
                     "meta.function-call entity.name.function",
                     "entity.name.type.module",
+                    "entity.name.function.preprocessor",
+                    "meta.preprocessor",
                 ],
                 "settings": {
                     "foreground": "#e5ccaf",
@@ -493,5 +505,11 @@
     },
     "zenMode.hideTabs": false,
     "breadcrumbs.enabled": false,
-    "window.menuBarVisibility": "hidden",
+    "git.decorations.enabled": false,
+    "search.collapseResults": "alwaysCollapse",
+    "editor.emptySelectionClipboard": false,
+    "editor.lightbulb.enabled": false,
+    "editor.smoothScrolling": true,
+    "git.enableStatusBarSync": false,
+    "window.menuBarVisibility": "toggle",
 }
