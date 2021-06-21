@@ -247,5 +247,9 @@
     {
         "key": "ctrl+k ctrl+tab",
         "command": "workbench.action.nextSideBarView"
+    },
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "deleteInsideWord"
     }
 ]
