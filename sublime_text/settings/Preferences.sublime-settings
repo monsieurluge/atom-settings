@@ -73,7 +73,7 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"line_numbers": true,
 	"menu_hide": true,
@@ -92,5 +92,5 @@
 	"theme": "sandstorm.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": "true"
+	"word_wrap": "true",
 }

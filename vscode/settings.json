@@ -536,4 +536,5 @@
     "window.menuBarVisibility": "toggle",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "liveshare.authenticationProvider": "GitHub",
 }
