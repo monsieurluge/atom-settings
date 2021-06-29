@@ -71,12 +71,13 @@
     "workbench.tips.enabled": false,
     "workbench.tree.indent": 16,
     "window.title": "${rootName}",
-    "workbench.tree.renderIndentGuides": "none", 
+    "workbench.tree.renderIndentGuides": "none",
     "workbench.colorCustomizations": {
         "editor.findMatchBackground": "#fc9e2150",
         "editor.findMatchHighlightBackground": "#e5ccaf30",
         "editor.selectionHighlightBackground": "#ff000000",
         "editor.selectionHighlightBorder": "#fc9e21",
+        "editor.inactiveSelectionBackground": "#e5ccaf10",
         "editorWarning.foreground": "#c84c61",
         "sideBarTitle.foreground": "#ffffff00",
         "sideBar.background": "#3b3a36",
@@ -105,7 +106,7 @@
         "list.focusOutline": "#ffffff00",
         "list.inactiveFocusOutline": "#ffffff00",
         "editorBracketMatch.background": "#3b3a36",
-        "editorBracketMatch.border": "#ffffff",
+        "editorBracketMatch.border": "#fc9e21",
         "editorWhitespace.foreground": "#3b3a3640",
         "editorUnnecessaryCode.border": "#ff0000",
         "editorUnnecessaryCode.opacity": "#00000080",
@@ -226,7 +227,7 @@
                     "foreground": "#fc9e21"
                 }
             },
-            { 
+            {
                 "name": "non structural keyword",
                 "scope": [
                     "keyword.other",
@@ -246,6 +247,7 @@
                     "storage.type",
                     "keyword.operator.expression.instanceof",
                     "keyword.operator.expression.of",
+                    "keyword.operator.expression.in",
                     "keyword.control.as",
                 ],
                 "settings": {
@@ -392,53 +394,71 @@
                 }
             },
             {
-                "name": "Markdown Titles",
-                "scope": ["entity.name.section.md", "entity.name.type.md"],
-                "settings": {
-                    "foreground": "#fc9e21"
-                }
-            },
-            {
-                "name": "Markdown Title Hash",
+                "name": "Markdown titles",
                 "scope": [
-                    "punctuation.definition.heading.md",
-                    "entity.name.type.md"
+                    "text.html.markdown heading",
                 ],
                 "settings": {
                     "foreground": "#fc9e21"
                 }
             },
             {
-                "name": "Markdown Raw",
-                "scope": ["markup.raw.inline.md", "variable.md"],
-                "settings": {
-                    "foreground": "#e5ccaf"
-                }
-            },
-            {
-                "name": "Markdown link braces",
-                "scope": ["punctuation.definition.metadata.md", "string.link.md"],
-                "settings": {
-                    "foreground": "#e5ccaf"
-                }
-            },
-            {
-                "name": "Markdown link",
+                "name": "Markdown titles punctuation",
                 "scope": [
-                    "markup.underline.link.md",
-                    "markup.underline.link.image.md",
-                    "meta.image.inline.mamdrkdown"
+                    "text.html.markdown punctuation.definition.heading",
+                ],
+                "settings": {
+                    "foreground": "#e5ccaf40"
+                }
+            },
+            {
+                "name": "Markdown list",
+                "scope": [
+                    "punctuation.definition.list.begin.markdown",
+                ],
+                "settings": {
+                    "foreground": "#fc9e21",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "name": "Markdown bold punctuation",
+                "scope": [
+                    "punctuation.definition.bold.markdown",
+                ],
+                "settings": {
+                    "foreground": "#e5ccaf40",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "name": "Markdown bold text",
+                "scope": [
+                    "markup.bold.markdown",
+                ],
+                "settings": {
+                    "foreground": "#e5ccaf",
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "name": "Markdown italic punctuation",
+                "scope": [
+                    "punctuation.definition.italic.markdown",
+                ],
+                "settings": {
+                    "foreground": "#e5ccaf40",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "name": "Markdown italic text",
+                "scope": [
+                    "markup.italic.markdown",
                 ],
                 "settings": {
                     "foreground": "#e5ccaf",
                     "fontStyle": "italic"
-                }
-            },
-            {
-                "name": "Markdown pre",
-                "scope": "markup.raw.block.md",
-                "settings": {
-                    "foreground": "#e5ccaf"
                 }
             },
             {
