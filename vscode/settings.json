@@ -3,6 +3,7 @@
         "*.env": "shellscript",
         "*.env.*": "shellscript",
     },
+    "files.trimTrailingWhitespace": true,
     "debug.javascript.codelens.npmScripts": "never",
     "breadcrumbs.symbolPath": "off",
     "editor.acceptSuggestionOnEnter": "off",
@@ -18,6 +19,7 @@
     "editor.matchBrackets": "near",
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
+    "files.insertFinalNewline": true,
     "editor.quickSuggestions": {
         // "other": false,
         "comments": false,
@@ -512,4 +514,6 @@
     "editor.smoothScrolling": true,
     "git.enableStatusBarSync": false,
     "window.menuBarVisibility": "toggle",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
 }
