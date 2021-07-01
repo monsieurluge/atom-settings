@@ -235,6 +235,7 @@
                     "keyword.operator.expression.typeof",
                     "keyword.operator.expression.import",
                     "keyword.operator.sizeof",
+                    "variable.language.super",
                 ],
                 "settings": {
                     "foreground": "#e5ccaf",
@@ -536,5 +537,7 @@
     "window.menuBarVisibility": "toggle",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "workbench.editor.untitled.hint": "hidden",
+    "security.workspace.trust.untrustedFiles": "open",
     "liveshare.authenticationProvider": "GitHub",
 }
