@@ -88,6 +88,7 @@
 	"shift_tab_unindent": true,
 	"show_full_path": true,
 	"show_tab_close_buttons": false,
+	"show_sidebar_button": false,
 	"sublime_merge_path": "/snap/bin/sublime-merge",
 	"theme": "sandstorm.sublime-theme",
 	"translate_tabs_to_spaces": true,
