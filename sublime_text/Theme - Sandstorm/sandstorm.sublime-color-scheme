@@ -35,6 +35,7 @@
         "gutter": "var(background)",
         "gutter_foreground": "var(c1_faded)",
         "gutter_foreground_highlight": "var(c3_base)",
+        "popup_css": "html, body {background-color: #44413c; color: #e5ccaf; } body { padding: 1px 3px; } a { color: #bd8b69; }",
         "selection": "var(c2_base)",
         "selection_foreground": "var(background)",
         "selection_border": "var(c2_base)",
@@ -58,7 +59,7 @@
         },
         {
             "name": "comment",
-            "scope": "comment, punctuation.definition.comment",
+            "scope": "comment, punctuation.definition.comment, comment.block.documentation entity.other.attribute-name",
             "foreground": "var(c1_faded)",
             "selection_foreground": "color(var(background) blend(var(c2_base) 50%))",
         },
@@ -369,10 +370,11 @@
             "foreground": "var(c1_faded)"
         },
         {
-            "name": "Headers level 2",
-            "scope": "text.html.markdown markup.heading.2.markdown, text.html.markdown markup.heading.2.markdown entity.name.section.markdown",
+            "name": "Headers level 1",
+            "scope": "text.html.markdown markup.heading.1.markdown, text.html.markdown markup.heading.1.markdown entity.name.section.markdown",
             "background": "var(c2_base)",
-            "foreground": "var(background)"
+            "foreground": "var(background)",
+            "font_style": "bold",
         },
         {
             "name": "Markdown code",
