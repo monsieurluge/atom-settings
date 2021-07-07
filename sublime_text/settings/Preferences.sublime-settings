@@ -87,7 +87,6 @@
 	"save_on_focus_lost": true,
 	"shift_tab_unindent": true,
 	"show_full_path": false,
-	"show_project_first": true,
 	"show_tab_close_buttons": false,
 	"show_sidebar_button": false,
 	"sublime_merge_path": "/snap/bin/sublime-merge",
