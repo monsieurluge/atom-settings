@@ -249,11 +249,6 @@
             "foreground": "var(c1_base)",
         },
         {
-            "name": "throw keyword",
-            "scope": "keyword.control.flow.throw.js",
-            "foreground": "var(c1_base)",
-        },
-        {
             "name": "avoid those!",
             "scope": "support.type.object.console.js",
             "foreground": "var(c1_base)",
