@@ -244,7 +244,13 @@
         {
             "class": "text_line_control",
             "content_margin": [8, 6],
-            "color_scheme_tint": "var(c5_base)"
+            "color_scheme_tint": "var(c5_base)",
+        },
+        {
+            "class": "text_line_control",
+            "content_margin": [8, 6],
+            "color_scheme_tint": "var(background))",
+            "parents": [{"class": "panel_control console_panel"}],
         },
         {
             "class": "dropdown_button_control",
@@ -469,7 +475,7 @@
             "class": "tool_tip_control",
             "content_margin": 10,
             "layer0.tint": "var(c2_base)",
-            "layer0.opacity": 1.0
+            "layer0.opacity": 1.0,
         },
         // label
         {
