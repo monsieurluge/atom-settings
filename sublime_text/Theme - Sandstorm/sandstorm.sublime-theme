@@ -249,7 +249,7 @@
         {
             "class": "text_line_control",
             "content_margin": [8, 6],
-            "color_scheme_tint": "var(background))",
+            "color_scheme_tint": "var(background)",
             "parents": [{"class": "panel_control console_panel"}],
         },
         {
@@ -556,7 +556,7 @@
         },
         {
             "class": "disclosure_button_control",
-            "attributes": ["folded"],
+            "attributes": ["expandable"],
             "parents": [{"class": "sidebar_tree", "attributes": ["hover"]}],
             "layer0.opacity": 0.5,
             "layer1.opacity": 0.0,
