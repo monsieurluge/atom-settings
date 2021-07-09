@@ -34,6 +34,7 @@
 
     // navigation
     { "keys": ["ctrl+escape"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["ctrl+k", "ctrl+m"], "command": "toggle_minimap" },
     { "keys": ["ctrl+y"], "command": "reveal_in_side_bar"},
     { "keys": ["f6"], "command": "goto_definition" },
     { "keys": ["shift+f6"], "command": "goto_reference" },
