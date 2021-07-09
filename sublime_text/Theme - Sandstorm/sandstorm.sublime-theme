@@ -519,7 +519,7 @@
         // label
         {
             "class": "sidebar_label",
-            "color": "color(var(c1_base) blend(var(background) 20%))",
+            "color": "color(var(c1_base) blend(var(background) 30%))",
             "font.size": "var(base_font_size)",
         },
         {
@@ -542,22 +542,31 @@
             "class": "disclosure_button_control",
             "content_margin": 8,
             "layer0.texture": "Theme - Sandstorm/assets/folded.png",
-            "layer0.tint": "var(c4_base)",
-            "layer0.opacity": 1.0,
+            "layer0.tint": "var(c1_base)",
+            "layer0.opacity": 0.3,
             "layer1.texture": "Theme - Sandstorm/assets/unfolded.png",
-            "layer1.tint": "var(c4_base)",
+            "layer1.tint": "var(c1_base)",
             "layer1.opacity": 0.0,
         },
         {
             "class": "disclosure_button_control",
             "attributes": ["expanded"],
             "layer0.opacity": 0.0,
-            "layer1.opacity": 1.0
+            "layer1.opacity": 0.3,
         },
         {
             "class": "disclosure_button_control",
+            "attributes": ["folded"],
             "parents": [{"class": "sidebar_tree", "attributes": ["hover"]}],
-            "layer1.tint": "var(c1_base)",
+            "layer0.opacity": 0.5,
+            "layer1.opacity": 0.0,
+        },
+        {
+            "class": "disclosure_button_control",
+            "attributes": ["expanded"],
+            "parents": [{"class": "sidebar_tree", "attributes": ["hover"]}],
+            "layer0.opacity": 0.0,
+            "layer1.opacity": 0.5,
         },
         // folder
         {
