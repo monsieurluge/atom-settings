@@ -22,13 +22,14 @@
     { "keys": ["ctrl+k", "ctrl+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 
     // editing
-    { "keys": ["ctrl+e"], "command": "toggle_comment", "args": { "block": false } },
-    { "keys": ["ctrl+b"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
-    { "keys": ["ctrl+shift+b"], "command": "duplicate_line" },
+    { "keys": ["ctrl+shift+c"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+e"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    { "keys": ["ctrl+shift+up"], "command": "duplicate_line" },
+    { "keys": ["ctrl+shift+down"], "command": "duplicate_line" },
     { "keys": ["ctrl+up"], "command": "swap_line_up" },
     { "keys": ["ctrl+down"], "command": "swap_line_down" },
-    { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
-    { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+pagedown"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+pageup"], "command": "select_lines", "args": {"forward": false} },
 
     // navigation
     { "keys": ["ctrl+escape"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
